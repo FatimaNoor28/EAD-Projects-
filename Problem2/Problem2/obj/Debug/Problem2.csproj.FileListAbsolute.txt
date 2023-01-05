@@ -1,0 +1,8 @@
+C:\Users\Solution Technology\source\repos\Problem2\Problem2\obj\Debug\Problem2.csproj.AssemblyReference.cache
+C:\Users\Solution Technology\source\repos\Problem2\Problem2\obj\Debug\Problem2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Solution Technology\source\repos\Problem2\Problem2\obj\Debug\Problem2.csproj.CoreCompileInputs.cache
+C:\Users\Solution Technology\source\repos\Problem2\Problem2\bin\Debug\Problem2.exe.config
+C:\Users\Solution Technology\source\repos\Problem2\Problem2\bin\Debug\Problem2.exe
+C:\Users\Solution Technology\source\repos\Problem2\Problem2\bin\Debug\Problem2.pdb
+C:\Users\Solution Technology\source\repos\Problem2\Problem2\obj\Debug\Problem2.exe
+C:\Users\Solution Technology\source\repos\Problem2\Problem2\obj\Debug\Problem2.pdb

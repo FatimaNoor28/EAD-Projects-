@@ -1,0 +1,8 @@
+C:\Users\Solution Technology\source\repos\DisconnectedDB(practice mids)\DisconnectedDB(practice mids)\bin\Debug\DisconnectedDB(practice mids).exe.config
+C:\Users\Solution Technology\source\repos\DisconnectedDB(practice mids)\DisconnectedDB(practice mids)\bin\Debug\DisconnectedDB(practice mids).exe
+C:\Users\Solution Technology\source\repos\DisconnectedDB(practice mids)\DisconnectedDB(practice mids)\bin\Debug\DisconnectedDB(practice mids).pdb
+C:\Users\Solution Technology\source\repos\DisconnectedDB(practice mids)\DisconnectedDB(practice mids)\obj\Debug\DisconnectedDB(practice mids).csproj.AssemblyReference.cache
+C:\Users\Solution Technology\source\repos\DisconnectedDB(practice mids)\DisconnectedDB(practice mids)\obj\Debug\DisconnectedDB(practice mids).csproj.SuggestedBindingRedirects.cache
+C:\Users\Solution Technology\source\repos\DisconnectedDB(practice mids)\DisconnectedDB(practice mids)\obj\Debug\DisconnectedDB(practice mids).csproj.CoreCompileInputs.cache
+C:\Users\Solution Technology\source\repos\DisconnectedDB(practice mids)\DisconnectedDB(practice mids)\obj\Debug\DisconnectedDB(practice mids).exe
+C:\Users\Solution Technology\source\repos\DisconnectedDB(practice mids)\DisconnectedDB(practice mids)\obj\Debug\DisconnectedDB(practice mids).pdb

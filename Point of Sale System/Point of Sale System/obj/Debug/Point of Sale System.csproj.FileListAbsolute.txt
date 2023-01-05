@@ -1,0 +1,88 @@
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\Point of Sale System.exe.config
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\Point of Sale System.exe
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\Point of Sale System.pdb
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\Azure.Core.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\Azure.Identity.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\Microsoft.Identity.Client.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\System.Buffers.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\System.Memory.Data.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\System.Memory.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\System.Security.AccessControl.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\System.Security.Permissions.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\System.Text.Json.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\System.ValueTuple.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\Azure.Core.xml
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\Azure.Identity.xml
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\Microsoft.Data.SqlClient.pdb
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\Microsoft.Data.SqlClient.xml
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\Microsoft.Identity.Client.xml
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.xml
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\Microsoft.IdentityModel.Abstractions.xml
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\Microsoft.IdentityModel.Logging.xml
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\System.Buffers.xml
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\System.Memory.xml
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\System.Memory.Data.xml
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\System.Security.AccessControl.xml
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\System.Security.Cryptography.ProtectedData.xml
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\System.Security.Permissions.xml
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\System.Text.Json.xml
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\System.ValueTuple.xml
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\obj\Debug\Point of Sale System.csproj.AssemblyReference.cache
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\obj\Debug\Point of Sale System.csproj.SuggestedBindingRedirects.cache
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\obj\Debug\Point of Sale System.csproj.CoreCompileInputs.cache
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\obj\Debug\Point of Sale System.csproj.CopyComplete
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\obj\Debug\Point of Sale System.exe
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\obj\Debug\Point of Sale System.pdb
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\PL.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\BLL.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\DTO.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\DAL.dll
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\PL.pdb
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\PL.dll.config
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\BLL.pdb
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\BLL.dll.config
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\DTO.pdb
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\DTO.dll.config
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\DAL.pdb
+C:\Users\Solution Technology\source\repos\Point of Sale System\Point of Sale System\bin\Debug\DAL.dll.config

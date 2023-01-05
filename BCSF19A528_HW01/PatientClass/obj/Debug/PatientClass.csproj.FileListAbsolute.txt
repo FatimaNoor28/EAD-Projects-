@@ -1,0 +1,2 @@
+C:\Users\Solution Technology\source\repos\BCSF19A528_HW01\PatientClass\obj\Debug\PatientClass.csproj.AssemblyReference.cache
+C:\Users\Solution Technology\source\repos\BCSF19A528_HW01\PatientClass\obj\Debug\PatientClass.csproj.CoreCompileInputs.cache

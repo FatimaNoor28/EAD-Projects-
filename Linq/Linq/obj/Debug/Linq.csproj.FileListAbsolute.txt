@@ -1,0 +1,8 @@
+C:\Users\Solution Technology\source\repos\Linq\Linq\bin\Debug\Linq.exe.config
+C:\Users\Solution Technology\source\repos\Linq\Linq\bin\Debug\Linq.exe
+C:\Users\Solution Technology\source\repos\Linq\Linq\bin\Debug\Linq.pdb
+C:\Users\Solution Technology\source\repos\Linq\Linq\obj\Debug\Linq.csproj.AssemblyReference.cache
+C:\Users\Solution Technology\source\repos\Linq\Linq\obj\Debug\Linq.csproj.SuggestedBindingRedirects.cache
+C:\Users\Solution Technology\source\repos\Linq\Linq\obj\Debug\Linq.csproj.CoreCompileInputs.cache
+C:\Users\Solution Technology\source\repos\Linq\Linq\obj\Debug\Linq.exe
+C:\Users\Solution Technology\source\repos\Linq\Linq\obj\Debug\Linq.pdb

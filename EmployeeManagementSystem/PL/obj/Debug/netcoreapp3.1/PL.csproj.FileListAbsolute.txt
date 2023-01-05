@@ -1,0 +1,17 @@
+C:\Users\Solution Technology\source\repos\EmployeeManagementSystem\PL\bin\Debug\netcoreapp3.1\PL.deps.json
+C:\Users\Solution Technology\source\repos\EmployeeManagementSystem\PL\bin\Debug\netcoreapp3.1\PL.dll
+C:\Users\Solution Technology\source\repos\EmployeeManagementSystem\PL\bin\Debug\netcoreapp3.1\PL.pdb
+C:\Users\Solution Technology\source\repos\EmployeeManagementSystem\PL\bin\Debug\netcoreapp3.1\DTO.dll
+C:\Users\Solution Technology\source\repos\EmployeeManagementSystem\PL\bin\Debug\netcoreapp3.1\DTO.pdb
+C:\Users\Solution Technology\source\repos\EmployeeManagementSystem\PL\obj\Debug\netcoreapp3.1\PL.csproj.AssemblyReference.cache
+C:\Users\Solution Technology\source\repos\EmployeeManagementSystem\PL\obj\Debug\netcoreapp3.1\PL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Solution Technology\source\repos\EmployeeManagementSystem\PL\obj\Debug\netcoreapp3.1\PL.AssemblyInfoInputs.cache
+C:\Users\Solution Technology\source\repos\EmployeeManagementSystem\PL\obj\Debug\netcoreapp3.1\PL.AssemblyInfo.cs
+C:\Users\Solution Technology\source\repos\EmployeeManagementSystem\PL\obj\Debug\netcoreapp3.1\PL.csproj.CoreCompileInputs.cache
+C:\Users\Solution Technology\source\repos\EmployeeManagementSystem\PL\obj\Debug\netcoreapp3.1\PL.csproj.CopyComplete
+C:\Users\Solution Technology\source\repos\EmployeeManagementSystem\PL\obj\Debug\netcoreapp3.1\PL.dll
+C:\Users\Solution Technology\source\repos\EmployeeManagementSystem\PL\obj\Debug\netcoreapp3.1\PL.pdb
+C:\Users\Solution Technology\source\repos\EmployeeManagementSystem\PL\bin\Debug\netcoreapp3.1\BLL.dll
+C:\Users\Solution Technology\source\repos\EmployeeManagementSystem\PL\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\Solution Technology\source\repos\EmployeeManagementSystem\PL\bin\Debug\netcoreapp3.1\BLL.pdb
+C:\Users\Solution Technology\source\repos\EmployeeManagementSystem\PL\bin\Debug\netcoreapp3.1\DAL.pdb

@@ -1,0 +1,6 @@
+C:\Users\Solution Technology\source\repos\ConsoleApp3\EmployeeDTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\Solution Technology\source\repos\ConsoleApp3\EmployeeDTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Solution Technology\source\repos\ConsoleApp3\EmployeeDTO\bin\Debug\DTO.dll
+C:\Users\Solution Technology\source\repos\ConsoleApp3\EmployeeDTO\bin\Debug\DTO.pdb
+C:\Users\Solution Technology\source\repos\ConsoleApp3\EmployeeDTO\obj\Debug\DTO.dll
+C:\Users\Solution Technology\source\repos\ConsoleApp3\EmployeeDTO\obj\Debug\DTO.pdb

@@ -1,0 +1,11 @@
+C:\Users\Solution Technology\source\repos\BCSF19A528_HW01\My_HW\bin\Debug\My_HW.exe.config
+C:\Users\Solution Technology\source\repos\BCSF19A528_HW01\My_HW\bin\Debug\My_HW.exe
+C:\Users\Solution Technology\source\repos\BCSF19A528_HW01\My_HW\bin\Debug\My_HW.pdb
+C:\Users\Solution Technology\source\repos\BCSF19A528_HW01\My_HW\bin\Debug\PatientClassLibrary.dll
+C:\Users\Solution Technology\source\repos\BCSF19A528_HW01\My_HW\bin\Debug\PatientClassLibrary.pdb
+C:\Users\Solution Technology\source\repos\BCSF19A528_HW01\My_HW\obj\Debug\My_HW.csproj.AssemblyReference.cache
+C:\Users\Solution Technology\source\repos\BCSF19A528_HW01\My_HW\obj\Debug\My_HW.csproj.SuggestedBindingRedirects.cache
+C:\Users\Solution Technology\source\repos\BCSF19A528_HW01\My_HW\obj\Debug\My_HW.csproj.CoreCompileInputs.cache
+C:\Users\Solution Technology\source\repos\BCSF19A528_HW01\My_HW\obj\Debug\My_HW.csproj.CopyComplete
+C:\Users\Solution Technology\source\repos\BCSF19A528_HW01\My_HW\obj\Debug\My_HW.exe
+C:\Users\Solution Technology\source\repos\BCSF19A528_HW01\My_HW\obj\Debug\My_HW.pdb

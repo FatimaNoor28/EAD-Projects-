@@ -1,0 +1,6 @@
+C:\Users\Solution Technology\source\repos\AsyncAndAwait\SomeLibrary\bin\Debug\SomeLibrary.dll
+C:\Users\Solution Technology\source\repos\AsyncAndAwait\SomeLibrary\bin\Debug\SomeLibrary.pdb
+C:\Users\Solution Technology\source\repos\AsyncAndAwait\SomeLibrary\obj\Debug\SomeLibrary.csproj.AssemblyReference.cache
+C:\Users\Solution Technology\source\repos\AsyncAndAwait\SomeLibrary\obj\Debug\SomeLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Solution Technology\source\repos\AsyncAndAwait\SomeLibrary\obj\Debug\SomeLibrary.dll
+C:\Users\Solution Technology\source\repos\AsyncAndAwait\SomeLibrary\obj\Debug\SomeLibrary.pdb

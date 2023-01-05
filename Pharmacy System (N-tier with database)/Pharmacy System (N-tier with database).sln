@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pharmacy System (N-tier with database)", "Pharmacy System (N-tier with database)\Pharmacy System (N-tier with database).csproj", "{CEACB3D1-7F75-4918-833C-CB6BE9BD6885}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cashier_DTO", "Cashier_DTO\Cashier_DTO.csproj", "{D58C5CD0-93CF-44C0-A725-EF2A3D863301}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Record_DTO", "Record_DTO\Record_DTO.csproj", "{744DAB9D-2510-49FB-82CD-E68A219832EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pharmacy_BLL", "Pharmacy_BLL\Pharmacy_BLL.csproj", "{6F23027E-128E-4B21-83A0-1EDDACFBD40E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pharmacy_PL", "Pharmacy_PL\Pharmacy_PL.csproj", "{A6B0314C-AF5D-4ECD-B772-526C23E5EC14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pharmacy_DAL", "Pharmacy_DAL\Pharmacy_DAL.csproj", "{6598E0B6-703E-4922-9E52-1C11071D58EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEACB3D1-7F75-4918-833C-CB6BE9BD6885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEACB3D1-7F75-4918-833C-CB6BE9BD6885}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEACB3D1-7F75-4918-833C-CB6BE9BD6885}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEACB3D1-7F75-4918-833C-CB6BE9BD6885}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D58C5CD0-93CF-44C0-A725-EF2A3D863301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D58C5CD0-93CF-44C0-A725-EF2A3D863301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D58C5CD0-93CF-44C0-A725-EF2A3D863301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D58C5CD0-93CF-44C0-A725-EF2A3D863301}.Release|Any CPU.Build.0 = Release|Any CPU
+		{744DAB9D-2510-49FB-82CD-E68A219832EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{744DAB9D-2510-49FB-82CD-E68A219832EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{744DAB9D-2510-49FB-82CD-E68A219832EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{744DAB9D-2510-49FB-82CD-E68A219832EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F23027E-128E-4B21-83A0-1EDDACFBD40E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F23027E-128E-4B21-83A0-1EDDACFBD40E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F23027E-128E-4B21-83A0-1EDDACFBD40E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F23027E-128E-4B21-83A0-1EDDACFBD40E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6B0314C-AF5D-4ECD-B772-526C23E5EC14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6B0314C-AF5D-4ECD-B772-526C23E5EC14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6B0314C-AF5D-4ECD-B772-526C23E5EC14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6B0314C-AF5D-4ECD-B772-526C23E5EC14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6598E0B6-703E-4922-9E52-1C11071D58EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6598E0B6-703E-4922-9E52-1C11071D58EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6598E0B6-703E-4922-9E52-1C11071D58EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6598E0B6-703E-4922-9E52-1C11071D58EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC26C7EF-65AD-4184-AC0E-B991F771782D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+C:\Users\Solution Technology\source\repos\AsyncAndAwait\AsyncAndAwait\bin\Debug\AsyncAndAwait.exe.config
+C:\Users\Solution Technology\source\repos\AsyncAndAwait\AsyncAndAwait\bin\Debug\AsyncAndAwait.exe
+C:\Users\Solution Technology\source\repos\AsyncAndAwait\AsyncAndAwait\bin\Debug\AsyncAndAwait.pdb
+C:\Users\Solution Technology\source\repos\AsyncAndAwait\AsyncAndAwait\obj\Debug\AsyncAndAwait.csproj.AssemblyReference.cache
+C:\Users\Solution Technology\source\repos\AsyncAndAwait\AsyncAndAwait\obj\Debug\AsyncAndAwait.csproj.SuggestedBindingRedirects.cache
+C:\Users\Solution Technology\source\repos\AsyncAndAwait\AsyncAndAwait\obj\Debug\AsyncAndAwait.csproj.CoreCompileInputs.cache
+C:\Users\Solution Technology\source\repos\AsyncAndAwait\AsyncAndAwait\obj\Debug\AsyncAndAwait.exe
+C:\Users\Solution Technology\source\repos\AsyncAndAwait\AsyncAndAwait\obj\Debug\AsyncAndAwait.pdb
+C:\Users\Solution Technology\source\repos\AsyncAndAwait\AsyncAndAwait\bin\Debug\SomeLibrary.dll
+C:\Users\Solution Technology\source\repos\AsyncAndAwait\AsyncAndAwait\bin\Debug\SomeLibrary.pdb
+C:\Users\Solution Technology\source\repos\AsyncAndAwait\AsyncAndAwait\obj\Debug\AsyncAndAwait.csproj.CopyComplete

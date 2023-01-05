@@ -1,0 +1,15 @@
+C:\Users\Solution Technology\source\repos\EAD_practice\bin\Debug\net7.0\EAD_practice.exe
+C:\Users\Solution Technology\source\repos\EAD_practice\bin\Debug\net7.0\EAD_practice.deps.json
+C:\Users\Solution Technology\source\repos\EAD_practice\bin\Debug\net7.0\EAD_practice.runtimeconfig.json
+C:\Users\Solution Technology\source\repos\EAD_practice\bin\Debug\net7.0\EAD_practice.dll
+C:\Users\Solution Technology\source\repos\EAD_practice\bin\Debug\net7.0\EAD_practice.pdb
+C:\Users\Solution Technology\source\repos\EAD_practice\obj\Debug\net7.0\EAD_practice.csproj.AssemblyReference.cache
+C:\Users\Solution Technology\source\repos\EAD_practice\obj\Debug\net7.0\EAD_practice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Solution Technology\source\repos\EAD_practice\obj\Debug\net7.0\EAD_practice.AssemblyInfoInputs.cache
+C:\Users\Solution Technology\source\repos\EAD_practice\obj\Debug\net7.0\EAD_practice.AssemblyInfo.cs
+C:\Users\Solution Technology\source\repos\EAD_practice\obj\Debug\net7.0\EAD_practice.csproj.CoreCompileInputs.cache
+C:\Users\Solution Technology\source\repos\EAD_practice\obj\Debug\net7.0\EAD_practice.dll
+C:\Users\Solution Technology\source\repos\EAD_practice\obj\Debug\net7.0\refint\EAD_practice.dll
+C:\Users\Solution Technology\source\repos\EAD_practice\obj\Debug\net7.0\EAD_practice.pdb
+C:\Users\Solution Technology\source\repos\EAD_practice\obj\Debug\net7.0\EAD_practice.genruntimeconfig.cache
+C:\Users\Solution Technology\source\repos\EAD_practice\obj\Debug\net7.0\ref\EAD_practice.dll

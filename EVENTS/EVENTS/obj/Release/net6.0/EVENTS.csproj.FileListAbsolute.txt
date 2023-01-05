@@ -1,0 +1,15 @@
+C:\Users\Solution Technology\source\repos\EVENTS\EVENTS\bin\Release\net6.0\EVENTS.exe
+C:\Users\Solution Technology\source\repos\EVENTS\EVENTS\bin\Release\net6.0\EVENTS.deps.json
+C:\Users\Solution Technology\source\repos\EVENTS\EVENTS\bin\Release\net6.0\EVENTS.runtimeconfig.json
+C:\Users\Solution Technology\source\repos\EVENTS\EVENTS\bin\Release\net6.0\EVENTS.dll
+C:\Users\Solution Technology\source\repos\EVENTS\EVENTS\bin\Release\net6.0\EVENTS.pdb
+C:\Users\Solution Technology\source\repos\EVENTS\EVENTS\obj\Release\net6.0\EVENTS.csproj.AssemblyReference.cache
+C:\Users\Solution Technology\source\repos\EVENTS\EVENTS\obj\Release\net6.0\EVENTS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Solution Technology\source\repos\EVENTS\EVENTS\obj\Release\net6.0\EVENTS.AssemblyInfoInputs.cache
+C:\Users\Solution Technology\source\repos\EVENTS\EVENTS\obj\Release\net6.0\EVENTS.AssemblyInfo.cs
+C:\Users\Solution Technology\source\repos\EVENTS\EVENTS\obj\Release\net6.0\EVENTS.csproj.CoreCompileInputs.cache
+C:\Users\Solution Technology\source\repos\EVENTS\EVENTS\obj\Release\net6.0\EVENTS.dll
+C:\Users\Solution Technology\source\repos\EVENTS\EVENTS\obj\Release\net6.0\refint\EVENTS.dll
+C:\Users\Solution Technology\source\repos\EVENTS\EVENTS\obj\Release\net6.0\EVENTS.pdb
+C:\Users\Solution Technology\source\repos\EVENTS\EVENTS\obj\Release\net6.0\EVENTS.genruntimeconfig.cache
+C:\Users\Solution Technology\source\repos\EVENTS\EVENTS\obj\Release\net6.0\ref\EVENTS.dll

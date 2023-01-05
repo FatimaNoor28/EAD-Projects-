@@ -1,0 +1,8 @@
+C:\Users\Solution Technology\source\repos\EAD_Lecture1To7\EAD_Lecture1To7\bin\Debug\EAD_Lecture1To7.exe.config
+C:\Users\Solution Technology\source\repos\EAD_Lecture1To7\EAD_Lecture1To7\bin\Debug\EAD_Lecture1To7.exe
+C:\Users\Solution Technology\source\repos\EAD_Lecture1To7\EAD_Lecture1To7\bin\Debug\EAD_Lecture1To7.pdb
+C:\Users\Solution Technology\source\repos\EAD_Lecture1To7\EAD_Lecture1To7\obj\Debug\EAD_Lecture1To7.csproj.AssemblyReference.cache
+C:\Users\Solution Technology\source\repos\EAD_Lecture1To7\EAD_Lecture1To7\obj\Debug\EAD_Lecture1To7.csproj.CoreCompileInputs.cache
+C:\Users\Solution Technology\source\repos\EAD_Lecture1To7\EAD_Lecture1To7\obj\Debug\EAD_Lecture1To7.exe
+C:\Users\Solution Technology\source\repos\EAD_Lecture1To7\EAD_Lecture1To7\obj\Debug\EAD_Lecture1To7.pdb
+C:\Users\Solution Technology\source\repos\EAD_Lecture1To7\EAD_Lecture1To7\obj\Debug\EAD_Lecture1To7.csproj.SuggestedBindingRedirects.cache

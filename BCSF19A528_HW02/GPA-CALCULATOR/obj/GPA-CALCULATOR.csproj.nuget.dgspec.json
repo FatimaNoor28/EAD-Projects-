@@ -1,0 +1,151 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Solution Technology\\source\\repos\\BCSF19A528_HW02\\GPA-CALCULATOR\\GPA-CALCULATOR.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Solution Technology\\source\\repos\\BCSF19A528_HW02\\BLL\\BLL.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Solution Technology\\source\\repos\\BCSF19A528_HW02\\BLL\\BLL.csproj",
+        "projectName": "BLL",
+        "projectPath": "C:\\Users\\Solution Technology\\source\\repos\\BCSF19A528_HW02\\BLL\\BLL.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Solution Technology\\source\\repos\\BCSF19A528_HW02\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\Solution Technology\\source\\repos\\BCSF19A528_HW02\\DAL\\DAL.csproj"
+              },
+              "C:\\Users\\Solution Technology\\source\\repos\\BCSF19A528_HW02\\DTO\\DTO.csproj": {
+                "projectPath": "C:\\Users\\Solution Technology\\source\\repos\\BCSF19A528_HW02\\DTO\\DTO.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Solution Technology\\source\\repos\\BCSF19A528_HW02\\DAL\\DAL.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Solution Technology\\source\\repos\\BCSF19A528_HW02\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "C:\\Users\\Solution Technology\\source\\repos\\BCSF19A528_HW02\\DAL\\DAL.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Solution Technology\\source\\repos\\BCSF19A528_HW02\\DTO\\DTO.csproj": {
+                "projectPath": "C:\\Users\\Solution Technology\\source\\repos\\BCSF19A528_HW02\\DTO\\DTO.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Solution Technology\\source\\repos\\BCSF19A528_HW02\\DTO\\DTO.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Solution Technology\\source\\repos\\BCSF19A528_HW02\\DTO\\DTO.csproj",
+        "projectName": "DTO",
+        "projectPath": "C:\\Users\\Solution Technology\\source\\repos\\BCSF19A528_HW02\\DTO\\DTO.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Solution Technology\\source\\repos\\BCSF19A528_HW02\\GPA-CALCULATOR\\GPA-CALCULATOR.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Solution Technology\\source\\repos\\BCSF19A528_HW02\\GPA-CALCULATOR\\GPA-CALCULATOR.csproj",
+        "projectName": "GPA-CALCULATOR",
+        "projectPath": "C:\\Users\\Solution Technology\\source\\repos\\BCSF19A528_HW02\\GPA-CALCULATOR\\GPA-CALCULATOR.csproj",
+        "packagesPath": "C:\\Users\\Solution Technology\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Solution Technology\\source\\repos\\BCSF19A528_HW02\\GPA-CALCULATOR\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Solution Technology\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Solution Technology\\source\\repos\\BCSF19A528_HW02\\PL\\PL.csproj": {
+                "projectPath": "C:\\Users\\Solution Technology\\source\\repos\\BCSF19A528_HW02\\PL\\PL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Solution Technology\\source\\repos\\BCSF19A528_HW02\\PL\\PL.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Solution Technology\\source\\repos\\BCSF19A528_HW02\\PL\\PL.csproj",
+        "projectName": "PL",
+        "projectPath": "C:\\Users\\Solution Technology\\source\\repos\\BCSF19A528_HW02\\PL\\PL.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Solution Technology\\source\\repos\\BCSF19A528_HW02\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\Solution Technology\\source\\repos\\BCSF19A528_HW02\\BLL\\BLL.csproj"
+              },
+              "C:\\Users\\Solution Technology\\source\\repos\\BCSF19A528_HW02\\DTO\\DTO.csproj": {
+                "projectPath": "C:\\Users\\Solution Technology\\source\\repos\\BCSF19A528_HW02\\DTO\\DTO.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}

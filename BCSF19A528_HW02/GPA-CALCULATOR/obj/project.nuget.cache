@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "xOyMfxFiLzXWIjLKftYd6EpUEtG/pF8UPNj9DkLuiTVRUK7II/WJjGou3c5D97bmiQrgzSeYxT1mflRBg1juLQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Solution Technology\\source\\repos\\BCSF19A528_HW02\\GPA-CALCULATOR\\GPA-CALCULATOR.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Solution Technology\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\Solution Technology\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

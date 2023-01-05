@@ -1,0 +1,10 @@
+C:\Users\Solution Technology\source\repos\PCL-haseeb\PCL-haseeb\bin\Debug\netcoreapp3.1\PCL-haseeb.deps.json
+C:\Users\Solution Technology\source\repos\PCL-haseeb\PCL-haseeb\bin\Debug\netcoreapp3.1\PCL-haseeb.dll
+C:\Users\Solution Technology\source\repos\PCL-haseeb\PCL-haseeb\bin\Debug\netcoreapp3.1\PCL-haseeb.pdb
+C:\Users\Solution Technology\source\repos\PCL-haseeb\PCL-haseeb\obj\Debug\netcoreapp3.1\PCL-haseeb.csproj.AssemblyReference.cache
+C:\Users\Solution Technology\source\repos\PCL-haseeb\PCL-haseeb\obj\Debug\netcoreapp3.1\PCL-haseeb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Solution Technology\source\repos\PCL-haseeb\PCL-haseeb\obj\Debug\netcoreapp3.1\PCL-haseeb.AssemblyInfoInputs.cache
+C:\Users\Solution Technology\source\repos\PCL-haseeb\PCL-haseeb\obj\Debug\netcoreapp3.1\PCL-haseeb.AssemblyInfo.cs
+C:\Users\Solution Technology\source\repos\PCL-haseeb\PCL-haseeb\obj\Debug\netcoreapp3.1\PCL-haseeb.csproj.CoreCompileInputs.cache
+C:\Users\Solution Technology\source\repos\PCL-haseeb\PCL-haseeb\obj\Debug\netcoreapp3.1\PCL-haseeb.dll
+C:\Users\Solution Technology\source\repos\PCL-haseeb\PCL-haseeb\obj\Debug\netcoreapp3.1\PCL-haseeb.pdb

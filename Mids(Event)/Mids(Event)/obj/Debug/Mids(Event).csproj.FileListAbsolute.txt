@@ -1,0 +1,8 @@
+C:\Users\Solution Technology\source\repos\Mids(Event)\Mids(Event)\bin\Debug\Mids(Event).exe.config
+C:\Users\Solution Technology\source\repos\Mids(Event)\Mids(Event)\bin\Debug\Mids(Event).exe
+C:\Users\Solution Technology\source\repos\Mids(Event)\Mids(Event)\bin\Debug\Mids(Event).pdb
+C:\Users\Solution Technology\source\repos\Mids(Event)\Mids(Event)\obj\Debug\Mids(Event).csproj.AssemblyReference.cache
+C:\Users\Solution Technology\source\repos\Mids(Event)\Mids(Event)\obj\Debug\Mids(Event).csproj.SuggestedBindingRedirects.cache
+C:\Users\Solution Technology\source\repos\Mids(Event)\Mids(Event)\obj\Debug\Mids(Event).csproj.CoreCompileInputs.cache
+C:\Users\Solution Technology\source\repos\Mids(Event)\Mids(Event)\obj\Debug\Mids(Event).exe
+C:\Users\Solution Technology\source\repos\Mids(Event)\Mids(Event)\obj\Debug\Mids(Event).pdb

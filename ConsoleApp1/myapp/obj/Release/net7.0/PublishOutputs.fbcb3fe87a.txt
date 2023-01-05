@@ -1,0 +1,5 @@
+C:\Users\Solution Technology\source\repos\ConsoleApp1\myapp\bin\Release\net7.0\publish\myapp.exe
+C:\Users\Solution Technology\source\repos\ConsoleApp1\myapp\bin\Release\net7.0\publish\myapp.dll
+C:\Users\Solution Technology\source\repos\ConsoleApp1\myapp\bin\Release\net7.0\publish\myapp.deps.json
+C:\Users\Solution Technology\source\repos\ConsoleApp1\myapp\bin\Release\net7.0\publish\myapp.runtimeconfig.json
+C:\Users\Solution Technology\source\repos\ConsoleApp1\myapp\bin\Release\net7.0\publish\myapp.pdb

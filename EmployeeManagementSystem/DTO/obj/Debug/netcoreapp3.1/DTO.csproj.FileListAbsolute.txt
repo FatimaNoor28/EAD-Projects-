@@ -1,0 +1,10 @@
+C:\Users\Solution Technology\source\repos\EmployeeManagementSystem\DTO\bin\Debug\netcoreapp3.1\DTO.deps.json
+C:\Users\Solution Technology\source\repos\EmployeeManagementSystem\DTO\bin\Debug\netcoreapp3.1\DTO.dll
+C:\Users\Solution Technology\source\repos\EmployeeManagementSystem\DTO\bin\Debug\netcoreapp3.1\DTO.pdb
+C:\Users\Solution Technology\source\repos\EmployeeManagementSystem\DTO\obj\Debug\netcoreapp3.1\DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Solution Technology\source\repos\EmployeeManagementSystem\DTO\obj\Debug\netcoreapp3.1\DTO.AssemblyInfoInputs.cache
+C:\Users\Solution Technology\source\repos\EmployeeManagementSystem\DTO\obj\Debug\netcoreapp3.1\DTO.AssemblyInfo.cs
+C:\Users\Solution Technology\source\repos\EmployeeManagementSystem\DTO\obj\Debug\netcoreapp3.1\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Solution Technology\source\repos\EmployeeManagementSystem\DTO\obj\Debug\netcoreapp3.1\DTO.dll
+C:\Users\Solution Technology\source\repos\EmployeeManagementSystem\DTO\obj\Debug\netcoreapp3.1\DTO.pdb
+C:\Users\Solution Technology\source\repos\EmployeeManagementSystem\DTO\obj\Debug\netcoreapp3.1\DTO.csproj.AssemblyReference.cache

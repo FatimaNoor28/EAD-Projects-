@@ -1,0 +1,5 @@
+Fatima,21,90000
+Sana,20,60000
+Humna,23,30000
+Maryam,22,3000000
+blah blah,29,90000

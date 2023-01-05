@@ -1,0 +1,10 @@
+C:\Users\Solution Technology\source\repos\PatientClassLibrary\PatientClassLibrary\bin\Debug\netcoreapp3.1\PatientClassLibrary.deps.json
+C:\Users\Solution Technology\source\repos\PatientClassLibrary\PatientClassLibrary\bin\Debug\netcoreapp3.1\PatientClassLibrary.dll
+C:\Users\Solution Technology\source\repos\PatientClassLibrary\PatientClassLibrary\bin\Debug\netcoreapp3.1\PatientClassLibrary.pdb
+C:\Users\Solution Technology\source\repos\PatientClassLibrary\PatientClassLibrary\obj\Debug\netcoreapp3.1\PatientClassLibrary.csproj.AssemblyReference.cache
+C:\Users\Solution Technology\source\repos\PatientClassLibrary\PatientClassLibrary\obj\Debug\netcoreapp3.1\PatientClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Solution Technology\source\repos\PatientClassLibrary\PatientClassLibrary\obj\Debug\netcoreapp3.1\PatientClassLibrary.AssemblyInfoInputs.cache
+C:\Users\Solution Technology\source\repos\PatientClassLibrary\PatientClassLibrary\obj\Debug\netcoreapp3.1\PatientClassLibrary.AssemblyInfo.cs
+C:\Users\Solution Technology\source\repos\PatientClassLibrary\PatientClassLibrary\obj\Debug\netcoreapp3.1\PatientClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Solution Technology\source\repos\PatientClassLibrary\PatientClassLibrary\obj\Debug\netcoreapp3.1\PatientClassLibrary.dll
+C:\Users\Solution Technology\source\repos\PatientClassLibrary\PatientClassLibrary\obj\Debug\netcoreapp3.1\PatientClassLibrary.pdb

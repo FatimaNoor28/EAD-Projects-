@@ -1,0 +1,17 @@
+C:\Users\Solution Technology\source\repos\BCSF19A528_HW02\GPA-CALCULATOR\bin\Release\net7.0\publish\GPA-CALCULATOR.exe
+C:\Users\Solution Technology\source\repos\BCSF19A528_HW02\GPA-CALCULATOR\bin\Release\net7.0\publish\GPA-CALCULATOR.dll
+C:\Users\Solution Technology\source\repos\BCSF19A528_HW02\GPA-CALCULATOR\bin\Release\net7.0\publish\GPA-CALCULATOR.deps.json
+C:\Users\Solution Technology\source\repos\BCSF19A528_HW02\GPA-CALCULATOR\bin\Release\net7.0\publish\GPA-CALCULATOR.runtimeconfig.json
+C:\Users\Solution Technology\source\repos\BCSF19A528_HW02\GPA-CALCULATOR\bin\Release\net7.0\publish\GPA-CALCULATOR.pdb
+C:\Users\Solution Technology\source\repos\BCSF19A528_HW02\GPA-CALCULATOR\bin\Release\net7.0\publish\BLL.dll
+C:\Users\Solution Technology\source\repos\BCSF19A528_HW02\GPA-CALCULATOR\bin\Release\net7.0\publish\DAL.dll
+C:\Users\Solution Technology\source\repos\BCSF19A528_HW02\GPA-CALCULATOR\bin\Release\net7.0\publish\DTO.dll
+C:\Users\Solution Technology\source\repos\BCSF19A528_HW02\GPA-CALCULATOR\bin\Release\net7.0\publish\PL.dll
+C:\Users\Solution Technology\source\repos\BCSF19A528_HW02\GPA-CALCULATOR\bin\Release\net7.0\publish\PL.pdb
+C:\Users\Solution Technology\source\repos\BCSF19A528_HW02\GPA-CALCULATOR\bin\Release\net7.0\publish\PL.dll.config
+C:\Users\Solution Technology\source\repos\BCSF19A528_HW02\GPA-CALCULATOR\bin\Release\net7.0\publish\BLL.pdb
+C:\Users\Solution Technology\source\repos\BCSF19A528_HW02\GPA-CALCULATOR\bin\Release\net7.0\publish\BLL.dll.config
+C:\Users\Solution Technology\source\repos\BCSF19A528_HW02\GPA-CALCULATOR\bin\Release\net7.0\publish\DAL.pdb
+C:\Users\Solution Technology\source\repos\BCSF19A528_HW02\GPA-CALCULATOR\bin\Release\net7.0\publish\DAL.dll.config
+C:\Users\Solution Technology\source\repos\BCSF19A528_HW02\GPA-CALCULATOR\bin\Release\net7.0\publish\DTO.pdb
+C:\Users\Solution Technology\source\repos\BCSF19A528_HW02\GPA-CALCULATOR\bin\Release\net7.0\publish\DTO.dll.config

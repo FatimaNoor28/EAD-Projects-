@@ -1,0 +1,3 @@
+C:\Users\Solution Technology\source\repos\Pharmacy System (N-tier with database)\Pharmacy System (N-tier with database)\obj\Debug\Pharmacy System (N-tier with database).csproj.AssemblyReference.cache
+C:\Users\Solution Technology\source\repos\Pharmacy System (N-tier with database)\Pharmacy System (N-tier with database)\obj\Debug\Pharmacy System (N-tier with database).csproj.SuggestedBindingRedirects.cache
+C:\Users\Solution Technology\source\repos\Pharmacy System (N-tier with database)\Pharmacy System (N-tier with database)\obj\Debug\Pharmacy System (N-tier with database).csproj.CoreCompileInputs.cache

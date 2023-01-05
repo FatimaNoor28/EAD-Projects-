@@ -1,0 +1,7 @@
+C:\Users\Solution Technology\source\repos\PropertiesToStringDataType\PropertiesToStringDataType\obj\Debug\PropertiesToStringDataType.csproj.AssemblyReference.cache
+C:\Users\Solution Technology\source\repos\PropertiesToStringDataType\PropertiesToStringDataType\obj\Debug\PropertiesToStringDataType.csproj.CoreCompileInputs.cache
+C:\Users\Solution Technology\source\repos\PropertiesToStringDataType\PropertiesToStringDataType\bin\Debug\PropertiesToStringDataType.exe.config
+C:\Users\Solution Technology\source\repos\PropertiesToStringDataType\PropertiesToStringDataType\bin\Debug\PropertiesToStringDataType.exe
+C:\Users\Solution Technology\source\repos\PropertiesToStringDataType\PropertiesToStringDataType\bin\Debug\PropertiesToStringDataType.pdb
+C:\Users\Solution Technology\source\repos\PropertiesToStringDataType\PropertiesToStringDataType\obj\Debug\PropertiesToStringDataType.exe
+C:\Users\Solution Technology\source\repos\PropertiesToStringDataType\PropertiesToStringDataType\obj\Debug\PropertiesToStringDataType.pdb

@@ -1,0 +1,10 @@
+C:\Users\Solution Technology\source\repos\haseeb\haseeb\bin\Debug\haseeb.exe.config
+C:\Users\Solution Technology\source\repos\haseeb\haseeb\bin\Debug\haseeb.exe
+C:\Users\Solution Technology\source\repos\haseeb\haseeb\bin\Debug\haseeb.pdb
+C:\Users\Solution Technology\source\repos\haseeb\haseeb\obj\Debug\haseeb.csproj.AssemblyReference.cache
+C:\Users\Solution Technology\source\repos\haseeb\haseeb\obj\Debug\haseeb.csproj.CoreCompileInputs.cache
+C:\Users\Solution Technology\source\repos\haseeb\haseeb\obj\Debug\haseeb.exe
+C:\Users\Solution Technology\source\repos\haseeb\haseeb\obj\Debug\haseeb.pdb
+C:\Users\Solution Technology\source\repos\haseeb\haseeb\bin\Debug\PCL.dll
+C:\Users\Solution Technology\source\repos\haseeb\haseeb\bin\Debug\PCL.pdb
+C:\Users\Solution Technology\source\repos\haseeb\haseeb\obj\Debug\haseeb.csproj.CopyComplete

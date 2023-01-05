@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "YgiWOUOUxCbnBrMWMfn1FRDAcu4sSLILJGq1gsMEgR9miR4QNOf+Ossk/Z0U0v4txFp7fvfbNBkqhPXKCmW5rw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Solution Technology\\source\\repos\\EmployeeManagementSystem\\BLL\\BLL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Solution Technology\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\Solution Technology\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\Solution Technology\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

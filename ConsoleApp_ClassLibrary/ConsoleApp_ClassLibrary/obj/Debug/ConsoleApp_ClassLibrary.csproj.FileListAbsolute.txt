@@ -1,0 +1,11 @@
+C:\Users\Solution Technology\source\repos\ConsoleApp_ClassLibrary\ConsoleApp_ClassLibrary\obj\Debug\ConsoleApp_ClassLibrary.csproj.AssemblyReference.cache
+C:\Users\Solution Technology\source\repos\ConsoleApp_ClassLibrary\ConsoleApp_ClassLibrary\obj\Debug\ConsoleApp_ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Solution Technology\source\repos\ConsoleApp_ClassLibrary\ConsoleApp_ClassLibrary\bin\Debug\ConsoleApp_ClassLibrary.exe.config
+C:\Users\Solution Technology\source\repos\ConsoleApp_ClassLibrary\ConsoleApp_ClassLibrary\bin\Debug\ConsoleApp_ClassLibrary.exe
+C:\Users\Solution Technology\source\repos\ConsoleApp_ClassLibrary\ConsoleApp_ClassLibrary\bin\Debug\ConsoleApp_ClassLibrary.pdb
+C:\Users\Solution Technology\source\repos\ConsoleApp_ClassLibrary\ConsoleApp_ClassLibrary\bin\Debug\PatientClassLibrary.dll
+C:\Users\Solution Technology\source\repos\ConsoleApp_ClassLibrary\ConsoleApp_ClassLibrary\bin\Debug\PatientClassLibrary.pdb
+C:\Users\Solution Technology\source\repos\ConsoleApp_ClassLibrary\ConsoleApp_ClassLibrary\obj\Debug\ConsoleApp_ClassLibrary.csproj.CopyComplete
+C:\Users\Solution Technology\source\repos\ConsoleApp_ClassLibrary\ConsoleApp_ClassLibrary\obj\Debug\ConsoleApp_ClassLibrary.exe
+C:\Users\Solution Technology\source\repos\ConsoleApp_ClassLibrary\ConsoleApp_ClassLibrary\obj\Debug\ConsoleApp_ClassLibrary.pdb
+C:\Users\Solution Technology\source\repos\ConsoleApp_ClassLibrary\ConsoleApp_ClassLibrary\obj\Debug\ConsoleApp_ClassLibrary.csproj.SuggestedBindingRedirects.cache

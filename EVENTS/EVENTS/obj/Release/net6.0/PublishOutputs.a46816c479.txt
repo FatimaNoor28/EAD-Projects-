@@ -1,0 +1,5 @@
+C:\Users\Solution Technology\source\repos\EVENTS\EVENTS\bin\Release\net6.0\publish\EVENTS.exe
+C:\Users\Solution Technology\source\repos\EVENTS\EVENTS\bin\Release\net6.0\publish\EVENTS.dll
+C:\Users\Solution Technology\source\repos\EVENTS\EVENTS\bin\Release\net6.0\publish\EVENTS.deps.json
+C:\Users\Solution Technology\source\repos\EVENTS\EVENTS\bin\Release\net6.0\publish\EVENTS.runtimeconfig.json
+C:\Users\Solution Technology\source\repos\EVENTS\EVENTS\bin\Release\net6.0\publish\EVENTS.pdb
