@@ -228,11 +228,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Solution Technology\\source\\repos\\BCSF19A528_HW02\\GPA-CALCULATOR\\GPA-CALCULATOR.csproj",
+      "projectUniqueName": "C:\\Users\\Solution Technology\\source\\EAD-Projects\\BCSF19A528_HW02\\GPA-CALCULATOR\\GPA-CALCULATOR.csproj",
       "projectName": "GPA-CALCULATOR",
-      "projectPath": "C:\\Users\\Solution Technology\\source\\repos\\BCSF19A528_HW02\\GPA-CALCULATOR\\GPA-CALCULATOR.csproj",
+      "projectPath": "C:\\Users\\Solution Technology\\source\\EAD-Projects\\BCSF19A528_HW02\\GPA-CALCULATOR\\GPA-CALCULATOR.csproj",
       "packagesPath": "C:\\Users\\Solution Technology\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Solution Technology\\source\\repos\\BCSF19A528_HW02\\GPA-CALCULATOR\\obj\\",
+      "outputPath": "C:\\Users\\Solution Technology\\source\\EAD-Projects\\BCSF19A528_HW02\\GPA-CALCULATOR\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Solution Technology\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -249,8 +249,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Solution Technology\\source\\repos\\BCSF19A528_HW02\\PL\\PL.csproj": {
-              "projectPath": "C:\\Users\\Solution Technology\\source\\repos\\BCSF19A528_HW02\\PL\\PL.csproj"
+            "C:\\Users\\Solution Technology\\source\\EAD-Projects\\BCSF19A528_HW02\\PL\\PL.csproj": {
+              "projectPath": "C:\\Users\\Solution Technology\\source\\EAD-Projects\\BCSF19A528_HW02\\PL\\PL.csproj"
             }
           }
         }

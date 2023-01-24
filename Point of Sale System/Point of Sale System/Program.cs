@@ -63,7 +63,7 @@ namespace Point_of_Sale_System
                             CustomerPL pl = new CustomerPL();
                             Console.Write("\n\r\t1- Add new Customer\r\n\t2- Update Customer details\r\n\t3- Find Customer\r\n\t4- Remove Existing Customer\r\n\t5- Back to Main Menu\r\n\tPress 1 to 5 to select an option:");
                             s = Console.ReadLine();
-                            if (s.IsNullOrEmpty())
+                            if (s.IsNullOrEmpty())  //checking if input was empty or not
                             {
                                 continue;
                             }
@@ -92,7 +92,6 @@ namespace Point_of_Sale_System
                         SalesPl Salepl = new SalesPl();
                         Salepl.Start();
                         break;
-
                     case 4:
                         ReceiptPL receiptPL = new ReceiptPL();
                         receiptPL.MakePayment();

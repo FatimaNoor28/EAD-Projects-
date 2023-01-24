@@ -24,10 +24,10 @@ namespace DAL
             cmd.Connection = con;
             con.Open();
             int count = cmd.ExecuteNonQuery();
-            Console.WriteLine(count);
+            //Console.WriteLine(count);
             cmd.CommandText = query2;
             count= cmd.ExecuteNonQuery();
-            Console.WriteLine(count);
+            //Console.WriteLine(count);
             con.Close();
         }
 

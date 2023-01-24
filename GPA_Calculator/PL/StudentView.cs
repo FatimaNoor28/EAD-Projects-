@@ -47,12 +47,12 @@ namespace PL
         {
             StudentBLL bll = new StudentBLL();
             StudentDTO dto = bll.GetStudent();
-            double gpa = bll.CalculateGPA((String)dto.Grade);
-            if (dto == null)
+            if (dto.StudentID.Equals(string.Empty))
             {
-                Console.WriteLine("File is empty or does not exist.");
+                Console.WriteLine("DB is empty or does not exist.");
                 return;
             }
+            double? gpa = bll.CalculateGPA((String)dto.Grade);
             Console.Write($"Name: ");
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine($"{dto.Name}");

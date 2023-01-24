@@ -16,11 +16,12 @@ namespace BLL
             StudentDAL dal = new StudentDAL();
             dal.SaveStudent(dto);
         }
-
-        public double CalculateGPA(String grade)
+        public double? CalculateGPA(String grade)
         {
-            double gpa= 9.9 ;
-            grade = grade.Replace(" ", String.Empty);
+            if (grade == null || grade.Length == 0)
+                return null;
+            double gpa = 9.9;
+            grade = grade.Replace(" ", string.Empty);
             if (grade == "F")
                 gpa = 0.0;
             else if (grade.Equals("D"))
@@ -41,41 +42,9 @@ namespace BLL
                 gpa = 3.70;
             else if (grade.Equals("A"))
                 gpa = 4.00;
-            //else
-            //{
-            //    Console.WriteLine(grade);
-            //    gpa = 4.00;
-            //}
             return gpa;
         }
 
-
-        //public double CalculateGPA(String grade)
-        //{
-
-
-        //    if (string.Compare( grade,"F") == 0)
-        //        return 0.0;
-        //    else if (grade.Equals("D"))
-        //        return 1.00;
-        //    else if (grade.Equals("C-"))
-        //        return 1.70;
-        //    else if (grade.Equals("C"))
-        //        return 2.00;
-        //    else if (grade.Equals("C+"))
-        //        return 2.30;
-        //    else if (grade.Equals("B-"))
-        //        return 2.70;
-        //    else if (grade.Equals("B"))
-        //        return 3.00;
-        //    else if (grade.Equals("B+"))
-        //        return 3.30;
-        //    else if (grade.Equals("A-"))
-        //        return 3.70;
-        //    else
-        //        return 4.00;
-
-        //}
 
         public String CalculateGrade(int marks)
         {
@@ -108,7 +77,10 @@ namespace BLL
             StudentDAL dal = new StudentDAL();
             StudentDTO student = dal.getStudent();
             if (student == null)
+            {
+                Console.WriteLine("DB is empty or does not exist.");
                 return null;
+            }
             return student;
         }
     }

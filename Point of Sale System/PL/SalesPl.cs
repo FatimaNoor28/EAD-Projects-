@@ -99,8 +99,9 @@ namespace PL
                 }
                 else
                     choice = int.Parse(s);
+
                 SalesBLL bll = new SalesBLL();
-                ItemBLL itembll = new ItemBLL();
+                //ItemBLL itembll = new ItemBLL();
                 SaleLineBLL saleLine = new SaleLineBLL();
                 switch (choice)
                 {

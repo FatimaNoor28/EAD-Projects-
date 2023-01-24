@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Solution Technology\\source\\repos\\BCSF19A528_HW01\\PatientClassLibrary\\PatientClassLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\Solution Technology\\source\\EAD-Projects\\BCSF19A528_HW01\\PatientClassLibrary\\PatientClassLibrary.csproj",
       "projectName": "PatientClassLibrary",
-      "projectPath": "C:\\Users\\Solution Technology\\source\\repos\\BCSF19A528_HW01\\PatientClassLibrary\\PatientClassLibrary.csproj",
+      "projectPath": "C:\\Users\\Solution Technology\\source\\EAD-Projects\\BCSF19A528_HW01\\PatientClassLibrary\\PatientClassLibrary.csproj",
       "packagesPath": "C:\\Users\\Solution Technology\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Solution Technology\\source\\repos\\BCSF19A528_HW01\\PatientClassLibrary\\obj\\",
+      "outputPath": "C:\\Users\\Solution Technology\\source\\EAD-Projects\\BCSF19A528_HW01\\PatientClassLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Solution Technology\\AppData\\Roaming\\NuGet\\NuGet.Config",

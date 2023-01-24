@@ -38,7 +38,7 @@ namespace PL
             };
             Console.Write("Are you sure you want to save this data?(y/n: )");
             string ans = Console.ReadLine();
-            if (ans.Equals("n"))
+            if (ans.Equals("n") || ans.Equals("N"))
             {
                 return ;
             }
@@ -69,10 +69,16 @@ namespace PL
                 Console.WriteLine("Please specify atleast one of the following to modify. Leave all fields blank to return to Customers Menu:\r\n");
 
                 Console.Write("Name: ");
-                string description = Console.ReadLine().Replace("  ", String.Empty);
-                if (!string.IsNullOrEmpty(description))
+                string name = Console.ReadLine().Replace("  ", String.Empty);
+                if (!string.IsNullOrEmpty(name))
                 {
-                    dto.Name = description;
+                    dto.Name = name;
+                }
+                Console.Write("Address: ");
+                string address = Console.ReadLine().Replace("  ", String.Empty);
+                if (!string.IsNullOrEmpty(address))
+                {
+                    dto.Address = address;
                 }
                 Console.Write("Email: ");
                 string p = Console.ReadLine();
@@ -109,7 +115,7 @@ namespace PL
             Console.Write("Customer ID: ");
             string id = Console.ReadLine();
             int i;
-            if (!string.IsNullOrEmpty(id))
+            if (!string.IsNullOrEmpty(id))  // Check if id is null ... if null, store a random value i.e. -99999 which is invalid so it will never be found in DB
             {
                 i = int.Parse(id);
             }
@@ -160,7 +166,7 @@ namespace PL
                 {
                     Console.Write("Are you sure you want to remove this Customer? (y/n):  ");
                     check = Console.ReadLine();
-                    if (check.Equals("y"))
+                    if (check.Equals("y") || check.Equals("Y"))
                     {
                         bll.RemoveCustomer(id);
                         Console.WriteLine("Record has been deleted!!");

@@ -147,7 +147,7 @@ namespace PL
             {
                 Console.Write("Are you sure you want to remove this item? (y/n):  ");
                 check = Console.ReadLine();
-                if (check.Equals("y"))
+                if (check.Equals("y") || check.Equals("Y"))
                 {
                     bll.RemoveItem(id);
                 }

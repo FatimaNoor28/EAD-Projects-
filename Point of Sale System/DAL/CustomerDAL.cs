@@ -19,7 +19,7 @@ namespace DAL
             SqlCommand cmd = new SqlCommand(query, con);
             con.Open();
             object result = cmd.ExecuteScalar();
-            result = (result == DBNull.Value) ? null : result;
+            result = (result == DBNull.Value)? null : result;  //ternary operator to check if data returned is null or not
             int? id = Convert.ToInt32(result);
             con.Close();
             return id;
@@ -63,7 +63,7 @@ namespace DAL
         {
             string conString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=PointOfSaleTerminal;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
             SqlConnection con = new SqlConnection(conString);
-            string query = $"Update Customers set Name = '{dto.Name}', Email = '{dto.Email}', Phone = '{dto.Phone}', SalesLimit = '{dto.SalesLimit}' where CustomerId = '{dto.ID}' ";
+            string query = $"Update Customers set Name = '{dto.Name}', Address = '{dto.Address}', Email = '{dto.Email}', Phone = '{dto.Phone}', SalesLimit = '{dto.SalesLimit}' where CustomerId = '{dto.ID}' ";
             SqlCommand cmd = new SqlCommand(query, con);
             con.Open();
             cmd.ExecuteNonQuery();
