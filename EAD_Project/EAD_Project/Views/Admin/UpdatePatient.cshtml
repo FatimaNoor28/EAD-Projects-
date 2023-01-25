@@ -1,0 +1,41 @@
+﻿<section id="appointment" class="appointment section-bg">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Update Patient</h2>
+            <p>Fill the attributes you want to change. Leave blank otherwise.</p>
+        </div>
+
+        <form action="Admin.cshtml">
+            <div class="row form-row">
+                <div class="col-md-4 form-group mt-3 mt-md-0 ">
+                    <label class="label">Enter Patient ID</label>   <input type="text" name="Id" class="form-control" />
+                </div>
+                <div class="col-md-4 form-group mt-3 mt-md-0 form-col">
+                    <label class="label">Enter Name</label>   <input type="text" name="Name" class="form-control" />
+                </div>
+            </div>
+            <div class="row form-row">
+                <div class="col-md-4 form-group mt-3 mt-md-0">
+                    <label class="label">Enter CNIC</label>   <input type="text" name="CNIC" class="form-control" />
+                </div>
+                <div class="col-md-4 form-group mt-3 mt-md-0 form-col">
+                    <label class="label">Enter Phone Number</label>   <input type="text" name="PhoneNum" class="form-control" />
+                </div>
+            </div>
+            <div class="row form-row">
+                <div class="col-md-4 form-group mt-3 mt-md-0">
+                    <label class="label">Assigned Doctor</label>   <input type="text" name="Doctor" class="form-control" />
+                </div>
+                <div class="col-md-4 form-group mt-3 mt-md-0 form-col">
+                    <label class="label">Enter Patient Room</label>   <input type="text" name="RoomNo" class="form-control" />
+                </div>
+            </div>
+
+            <div class="text-center bttn">
+                <input type="submit" value="Update Patient" />
+            </div>
+        </form>
+
+    </div>
+</section>

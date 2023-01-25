@@ -1,0 +1,325 @@
+#backgroundimage {
+    width: 100%;
+    height: 60vh;
+}
+
+.image1 {
+    height: 70vh;
+    width: 100%;
+}
+
+.text {
+    margin-top: -9.5cm;
+    padding-left: 2cm;
+    margin-bottom: 2cm;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    font-size: 45px;
+}
+
+.text1 {
+    margin-top: -8cm;
+    padding-left: 2cm;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    font-size: 45px;
+}
+
+.paragraph {
+    color: aliceblue;
+    padding-left: 2cm;
+}
+
+.paragraph0 {
+    margin-top: -6cm;
+}
+
+.paragraph1 {
+    margin-top: -5.5cm;
+}
+
+.paragraph2 {
+    margin-top: -5cm;
+}
+
+.paragraph3 {
+    margin-top: -4.5cm;
+}
+
+.button {
+    margin-top: -6.5cm;
+    margin-left: 1.7cm;
+}
+
+.button1 {
+    margin-top: -6.5cm;
+}
+
+.navbarcolor {
+    background-color: aliceblue;
+}
+
+.AboutTxt {
+    font-size: xx-large;
+    color: aliceblue;
+}
+
+.AboutPara {
+    font-size: medium;
+    color: aliceblue;
+}
+
+.margin {
+    margin-left: 70px;
+}
+
+.width {
+    width: 32ch;
+    margin-bottom: 2ch;
+}
+
+.down {
+    margin-bottom: 3ch;
+}
+
+.up {
+    margin-top: 3ch;
+}
+
+.margin-left {
+    margin-left: 100px;
+}
+
+
+
+
+
+
+/* .left{
+    margin-left: -1cm;
+} */
+.section-bg {
+    background-color: #f1f7fd;
+}
+
+section {
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-left: -5cm;
+}
+
+    .section-title h2 {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        position: relative;
+        color: #2c4964;
+    }
+
+        .section-title h2::before {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 120px;
+            height: 1px;
+            background: #ddd;
+            bottom: 1px;
+            left: calc(50% - 60px);
+        }
+
+        .section-title h2::after {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 40px;
+            height: 3px;
+            background: #1977cc;
+            bottom: 0;
+            left: calc(50% - 20px);
+        }
+
+    .section-title p {
+        margin-bottom: 0;
+    }
+
+.appointment .php-email-form {
+    width: 100%;
+}
+
+    .appointment .php-email-form .form-group {
+        padding-bottom: 8ch;
+    }
+
+    .appointment .php-email-form .sent-message {
+        display: none;
+        color: #fff;
+        background: #18d26e;
+        text-align: center;
+        padding: 15px;
+        font-weight: 600;
+    }
+
+    .appointment .php-email-form input,
+    .appointment .php-email-form textarea,
+    .appointment .php-email-form select {
+        border-radius: 0;
+        box-shadow: none;
+        font-size: 14px;
+        padding: 10px !important;
+    }
+
+        .appointment .php-email-form input:focus,
+        .appointment .php-email-form textarea:focus,
+        .appointment .php-email-form select:focus {
+            border-color: #1977cc;
+        }
+
+    .appointment .php-email-form input,
+    .appointment .php-email-form select {
+        height: 44cx;
+    }
+
+    .appointment .php-email-form textarea {
+        padding: 10cx 12cx;
+    }
+
+    .appointment .php-email-form input[type=submit] {
+        background: #1977cc;
+        border: 0;
+        padding: 10cx 35cx;
+        color: #fff;
+        transition: 0.4s;
+        border-radius: 50cx;
+    }
+
+    .appointment .php-email-form button[type=submit]:hover {
+        background: #1c84e3;
+    }
+
+.services .icon-box {
+    text-align: center;
+    border: 1px solid #d5e1ed;
+    padding: 80px 20px;
+    transition: all ease-in-out 0.3s;
+}
+
+    .services .icon-box .icon {
+        margin: 0 auto;
+        width: 64px;
+        height: 64px;
+        background: #1977cc;
+        border-radius: 5px;
+        transition: all 0.3s ease-out 0s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        transform-style: preserve-3d;
+    }
+
+        .services .icon-box .icon i {
+            color: #fff;
+            font-size: 28px;
+        }
+
+        .services .icon-box .icon::before {
+            position: absolute;
+            content: "";
+            left: -8px;
+            top: -8px;
+            height: 100%;
+            width: 100%;
+            background: #badaf7;
+            border-radius: 5px;
+            transition: all 0.3s ease-out 0s;
+            transform: translateZ(-1px);
+        }
+
+    .services .icon-box h4 {
+        font-weight: 700;
+        margin-bottom: 15px;
+        font-size: 24px;
+    }
+
+        .services .icon-box h4 a {
+            color: #2c4964;
+        }
+
+    .services .icon-box p {
+        line-height: 24px;
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .services .icon-box:hover {
+        background: #1977cc;
+        border-color: #1977cc;
+    }
+
+        .services .icon-box:hover .icon {
+            background: #fff;
+        }
+
+            .services .icon-box:hover .icon i {
+                color: #1977cc;
+            }
+
+            .services .icon-box:hover .icon::before {
+                background: #3291e6;
+            }
+
+        .services .icon-box:hover h4 a,
+        .services .icon-box:hover p {
+            color: #fff;
+        }
+
+.addPatient {
+    padding-left: 6cm;
+    padding-right: -8cm;
+}
+
+.label {
+    padding-top: 2ch;
+}
+
+.form-col {
+    padding-left: 2cm;
+}
+
+.form-row {
+    padding-left: 6cm;
+}
+
+.bttn {
+    padding-top: 1cm;
+    padding-right: 2cm;
+}
+
+.login {
+    margin: 0;
+    padding: 0;
+    background-color: #17a2b8;
+    height: 100vh;
+}
+
+#login .container #login-row #login-column #login-box {
+    margin-top: 120px;
+    max-width: 600px;
+    height: 320px;
+    border: 1px solid #9C9C9C;
+    background-color: #EAEAEA;
+}
+
+#login .container #login-row #login-column #login-box #login-form {
+    padding: 10px;
+}
+
+#login .container #login-row #login-column #login-box #login-form #register-link {
+    margin-top: -85p;
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\EAD_Project.props" />
+</Project>
