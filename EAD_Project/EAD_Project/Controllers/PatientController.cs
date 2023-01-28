@@ -50,8 +50,9 @@ namespace EAD_Project.Controllers
         [HttpPost]
         public IActionResult Receipt(string name, string CNIC, string phone, string date, string department, string doctor)
         {
+
             PatientRepository repository = new PatientRepository();
-            Patient p = repository.MakeAppointment(username, name, CNIC, phone, date, department, doctor);
+            Patient p = repository.MakeAppointment(name, CNIC, phone, date, department, doctor);
             return View(p);
         }
         
