@@ -37,4 +37,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\Media\NewFolder1\" />
+    <Folder Include="wwwroot\Media\NewFolder\" />
+  </ItemGroup>
+
 </Project>

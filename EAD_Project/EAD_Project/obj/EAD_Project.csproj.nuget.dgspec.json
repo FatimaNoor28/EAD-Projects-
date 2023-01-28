@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Solution Technology\\source\\repos\\EAD_Project\\EAD_Project\\EAD_Project.csproj": {}
+    "C:\\Users\\Solution Technology\\source\\EAD-Projects\\EAD_Project\\EAD_Project\\EAD_Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Solution Technology\\source\\repos\\EAD_Project\\EAD_Project\\EAD_Project.csproj": {
+    "C:\\Users\\Solution Technology\\source\\EAD-Projects\\EAD_Project\\EAD_Project\\EAD_Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Solution Technology\\source\\repos\\EAD_Project\\EAD_Project\\EAD_Project.csproj",
+        "projectUniqueName": "C:\\Users\\Solution Technology\\source\\EAD-Projects\\EAD_Project\\EAD_Project\\EAD_Project.csproj",
         "projectName": "EAD_Project",
-        "projectPath": "C:\\Users\\Solution Technology\\source\\repos\\EAD_Project\\EAD_Project\\EAD_Project.csproj",
+        "projectPath": "C:\\Users\\Solution Technology\\source\\EAD-Projects\\EAD_Project\\EAD_Project\\EAD_Project.csproj",
         "packagesPath": "C:\\Users\\Solution Technology\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Solution Technology\\source\\repos\\EAD_Project\\EAD_Project\\obj\\",
+        "outputPath": "C:\\Users\\Solution Technology\\source\\EAD-Projects\\EAD_Project\\EAD_Project\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Solution Technology\\AppData\\Roaming\\NuGet\\NuGet.Config",

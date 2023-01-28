@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "08xWKFj9I4P1TpM1fKEERhre/TpeyFMBQ498RmZUqyZPwRdzmVAG1xge24N2MP/USFVJqrL5IBMPibogCV1zQw==",
+  "dgSpecHash": "jgcJez9NVxLefZ8j0Xnk6ERuRYiW9h+b/4wtjRNPxBEruWUEy22OHLhrs+8h0OfvCbXGaQ86G0gBbLgCCIcgCA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Solution Technology\\source\\repos\\EAD_Project\\EAD_Project\\EAD_Project.csproj",
+  "projectFilePath": "C:\\Users\\Solution Technology\\source\\EAD-Projects\\EAD_Project\\EAD_Project\\EAD_Project.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Solution Technology\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Solution Technology\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

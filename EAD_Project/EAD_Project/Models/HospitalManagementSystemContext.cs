@@ -81,6 +81,9 @@ public partial class HospitalManagementSystemContext : DbContext
             entity.Property(e => e.Name)
                 .HasMaxLength(20)
                 .IsFixedLength();
+            entity.Property(e => e.Password)
+                .HasMaxLength(10)
+                .IsFixedLength();
             entity.Property(e => e.PhoneNo)
                 .HasMaxLength(11)
                 .IsFixedLength();

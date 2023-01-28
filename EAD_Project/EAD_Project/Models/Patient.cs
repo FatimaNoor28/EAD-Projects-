@@ -16,4 +16,6 @@ public partial class Patient
     public DateTime? AppointmentDate { get; set; }
 
     public int? AppointmentId { get; set; }
+
+    public string? Password { get; set; }
 }

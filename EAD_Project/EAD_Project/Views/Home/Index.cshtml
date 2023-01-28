@@ -1,10 +1,314 @@
-﻿@*@{
+﻿@{
     ViewData["Title"] = "Home Page";
 }
-*@
+<head>
+    <style>
+        /*--------------------------------------------------------------
+# Departments
+--------------------------------------------------------------*/
+.departments {
+    overflow: hidden;
+}
+
+    .departments .nav-tabs {
+        border: 0;
+    }
+
+    .departments .nav-link {
+        border: 0;
+        padding: 12px 15px 12px 0;
+        transition: 0.3s;
+        color: #2c4964;
+        border-radius: 0;
+        border-right: 2px solid #ebf1f6;
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+        .departments .nav-link:hover {
+            color: #1977cc;
+        }
+
+        .departments .nav-link.active {
+            color: #1977cc;
+            border-color: #1977cc;
+        }
+
+    .departments .tab-pane.active {
+        -webkit-animation: fadeIn 0.5s ease-out;
+        animation: fadeIn 0.5s ease-out;
+    }
+
+    .departments .details h3 {
+        font-size: 26px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        color: #2c4964;
+    }
+
+    .departments .details p {
+        color: #777777;
+    }
+
+        .departments .details p:last-child {
+            margin-bottom: 0;
+        }
+
+    media (max-width: 992px) {
+    .departments .nav-link {
+        border: 0;
+        padding: 15px;
+    }
+
+        .departments .nav-link.active {
+            color: #fff;
+            background: #1977cc;
+        }
+}
+
+/*--------------------------------------------------------------
+# Doctors
+--------------------------------------------------------------*/
+.doctors {
+    background: #fff;
+}
+
+    .doctors .member {
+        position: relative;
+        box-shadow: 0px 2px 15px rgba(44, 73, 100, 0.08);
+        padding: 30px;
+        border-radius: 10px;
+    }
+
+        .doctors .member .pic {
+            overflow: hidden;
+            width: 180px;
+            border-radius: 50%;
+        }
+
+            .doctors .member .pic img {
+                transition: ease-in-out 0.3s;
+            }
+
+        .doctors .member:hover img {
+            transform: scale(1.1);
+        }
+
+        .doctors .member .member-info {
+            padding-left: 30px;
+        }
+
+        .doctors .member h4 {
+            font-weight: 700;
+            margin-bottom: 5px;
+            font-size: 20px;
+            color: #2c4964;
+        }
+
+        .doctors .member span {
+            display: block;
+            font-size: 15px;
+            padding-bottom: 10px;
+            position: relative;
+            font-weight: 500;
+        }
+
+            .doctors .member span::after {
+                content: "";
+                position: absolute;
+                display: block;
+                width: 50px;
+                height: 1px;
+                background: #b2c8dd;
+                bottom: 0;
+                left: 0;
+            }
+
+        .doctors .member p {
+            margin: 10px 0 0 0;
+            font-size: 14px;
+        }
+
+        .doctors .member .social {
+            margin-top: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+            .doctors .member .social a {
+                transition: ease-in-out 0.3s;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50px;
+                width: 32px;
+                height: 32px;
+                background: #a0bcd5;
+            }
+
+                .doctors .member .social a i {
+                    color: #fff;
+                    font-size: 16px;
+                    margin: 0 2px;
+                }
+
+                .doctors .member .social a:hover {
+                    background: #1977cc;
+                }
+
+                .doctors .member .social a + a {
+                    margin-left: 8px;
+                }
+
+.contact .info {
+    width: 100%;
+    background: #fff;
+}
+
+    .contact .info i {
+        font-size: 20px;
+        color: #1977cc;
+        float: left;
+        width: 44px;
+        height: 44px;
+        background: #d6e9fa;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .contact .info h4 {
+        padding: 0 0 0 60px;
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 5px;
+        color: #2c4964;
+    }
+
+    .contact .info p {
+        padding: 0 0 0 60px;
+        margin-bottom: 0;
+        font-size: 14px;
+        color: #4b7dab;
+    }
+
+    .contact .info .email,
+    .contact .info .phone {
+        margin-top: 40px;
+    }
+
+        .contact .info .email:hover i,
+        .contact .info .address:hover i,
+        .contact .info .phone:hover i {
+            background: #1977cc;
+            color: #fff;
+        }
+
+.contact .php-email-form {
+    width: 100%;
+    background: #fff;
+}
+
+    .contact .php-email-form .form-group {
+        padding-bottom: 8px;
+    }
+
+    .contact .php-email-form .error-message {
+        display: none;
+        color: #fff;
+        background: #ed3c0d;
+        text-align: left;
+        padding: 15px;
+        font-weight: 600;
+    }
+
+        .contact .php-email-form .error-message br + br {
+            margin-top: 25px;
+        }
+
+    .contact .php-email-form .sent-message {
+        display: none;
+        color: #fff;
+        background: #18d26e;
+        text-align: center;
+        padding: 15px;
+        font-weight: 600;
+    }
+
+    .contact .php-email-form .loading {
+        display: none;
+        background: #fff;
+        text-align: center;
+        padding: 15px;
+    }
+
+        .contact .php-email-form .loading:before {
+            content: "";
+            display: inline-block;
+            border-radius: 50%;
+            width: 24px;
+            height: 24px;
+            margin: 0 10px -6px 0;
+            border: 3px solid #18d26e;
+            border-top-color: #eee;
+            -webkit-animation: animate-loading 1s linear infinite;
+            animation: animate-loading 1s linear infinite;
+        }
+
+    .contact .php-email-form input,
+    .contact .php-email-form textarea {
+        border-radius: 0;
+        box-shadow: none;
+        font-size: 14px;
+    }
+
+    .contact .php-email-form input {
+        height: 44px;
+    }
+
+    .contact .php-email-form textarea {
+        padding: 10px 12px;
+    }
+
+    .contact .php-email-form button[type=submit] {
+        background: #1977cc;
+        border: 0;
+        padding: 10px 35px;
+        color: #fff;
+        transition: 0.4s;
+        border-radius: 50px;
+    }
+
+        .contact .php-email-form button[type=submit]:hover {
+            background: #1c84e3;
+        }
+
+    webkit-keyframes animate-loading {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+    keyframes animate-loading {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+    </style>
+</head>
  <!-- start hero -->
-@*
-<link rel="stylesheet" href="~css/our.css">*@
+<link rel="stylesheet" href="~/css/our.css">
     <section id="hero" class="d-flex align-items-center">
         <div class="container " >
             <div class="row">
@@ -92,71 +396,244 @@
     </section>
     <!-- End Services -->
 
-    <!-- Appointment -->
-    <section id="appointment" class="appointment section-bg">
-        <div class="container">
-            <div class="section-title">
-                <h2>Make an Appointment</h2>
-                <p>The most valuable thing is your health. So, don't be indifferent towards your health. When it comes to our health, a good healthcare plan is very important for all individuals. So, make an appointment now.</p>
-            </div>
-                <form method="post" action="">
-                    <div class="row">
-                        <!-- Name -->
-                        <div class="col-md-4 form-group">
-                            <input type="text" pattern="[A-Za-z]+" name="name" class="form-control" id="name" placeholder="Your Name" title="Please enter at least 4 chars" required>
-                        </div>
-                        <!-- CNIC -->
-                        <div class="col-md-4 form-group mt-3 mt-md-0">
-                            <input type="text" pattern="^[0-9]{5}-[0-9]{7}-[0-9]{1}$" class="form-control" title="Type your CNIC like 12345-1234567-1" name="CNIC" id="CNIC" placeholder="Your CNIC"  required>
-                            <!-- data-msg="Please enter a valid email" -->
-                            <!-- data-rule="email" -->
-                            <!-- <div class="validate"></div> -->
-                        </div>
-                        <!-- Phone -->
-                        <div class="col-md-4 form-group mt-3 mt-md-0">
-                            <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone" pattern="[0-9]{4}-[0-9]{7}" title="Type your phone number like 0312-1234567">
-                            <!-- <div class="validate"></div> -->
-                        </div>
-                    </div>
-                    <div class="row">
-                        <!-- Date -->
-                        <div class="col-md-4 form-group mt-3">
-                          <input type="datetime" name="date" required pattern="\d{2}-\d{2}-\d{4}" class="form-control datepicker" id="date" placeholder="Appointment Date (dd-mm-yyyy)" >
-                          <!-- <div class="validate"></div> -->
-                        </div>
-                        <!-- department -->
-                        <div class="col-md-4 form-group mt-3">
-                            <select name="department" id="department" class="form-select">
-                                <option value="">Select Department</option>
-                                <option value="Department 1">Department 1</option>
-                                <option value="Department 2">Department 2</option>
-                                <option value="Department 3">Department 3</option>
-                            </select>
-                            <!-- <div class="validate"></div> -->
-                        </div>
-                        <!-- doctor -->
-                        <div class="col-md-4 form-group mt-3">
-                            <select name="doctor" id="doctor" class="form-select">
-                                <option value="">Select Doctor</option>
-                                <option value="Doctor 1">Doctor 1</option>
-                                <option value="Doctor 2">Doctor 2</option>
-                                <option value="Doctor 3">Doctor 3</option>
-                            </select>
-                            <!-- <div class="validate"></div> -->
-                        </div>
-                    </div>
-                    <!-- <div class="form-group mt-3">
-                        <textarea class="form-control" name="message" rows="5" placeholder="Message (Optional)"></textarea>
-                        <div class="validate"></div>
-                    </div> -->
-                    <div class="mb-3">
-                        <div class="loading">Loading</div>
-                        <div class="error-message"></div>
-                        <div class="sent-message"></div>
-                    </div>
-                    <div class="text-center"><input type="submit" value="Make an Appointment"></div>
-                </form>
-              </div>
+<!-- ======= Departments Section ======= -->
+<section id="doctors" class="doctors">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Departments</h2>
+            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
-    </section>
-    <!-- End Appointment -->
+
+        <div class="row">
+
+            <div class="col-lg-6">
+                <div class="member d-flex align-items-start">
+                    <div class="pic"><img src="~/Media/Department/departments-1.jpg" class="img-fluid" alt=""></div>
+                    <div class="member-info">
+                        <h4>Cardiology</h4>
+                        <span></span>
+                        <p>The Cardiology Department at Doctors Hospital offers a full spectrum of specialty services for patients with conditions that affect their heart and blood vessels. Our goal is to provide exceptional care for patients at risk for or with established cardiovascular disease. We also aim to educate future leaders in cardiovascular medicine.</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 mt-4 mt-lg-0">
+                <div class="member d-flex align-items-start">
+                    <div class="pic"><img src="~/Media/Department/departments-2.jpg" class="img-fluid" alt=""></div>
+                    <div class="member-info">
+                        <h4>Neurology</h4>
+                        <span></span>
+                        <p>The Neurology department at Doctors Hospital is trained to investigate, or diagnose and treat neurological disorders. Our neurologists are also be involved in clinical research, clinical trials, and basic or translational research.</p>
+                        @*<div class="social">
+                            <img src="~/Media/departments-2.jpg" alt="" class="img-fluid">
+                        </div>*@
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 mt-4">
+                <div class="member d-flex align-items-start">
+                    <div class="pic"><img src="~/Media/Department/departments-3.jpg" class="img-fluid" alt=""></div>
+                    <div class="member-info">
+                        <h4>Hepatology</h4>
+                        <span></span>
+                        <p>The Liver Transplant Department at Doctors Hospital is fully equipped with the latest medical technologies used in liver transplantation. Our surgeons perform in a dedicated operation theater along with state-of-the-art equipment such as the Cavitron ultrasonic surgical aspirator (CUSA), Argon beam coagulator and a specialized retracting system Thompson retractor. This equipment meets the highest medical standards.</p>
+                        @*<div class="social">
+                            <img src="~/Media/departments-3.jpg" alt="" class="img-fluid">
+                        </div>*@
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 mt-4">
+                <div class="member d-flex align-items-start">
+                    <div class="pic"><img src="~/Media/Department/departments-4.jpg" class="img-fluid" alt=""></div>
+                    <div class="member-info">
+                        <h4>Pediatrics</h4>
+                        <span></span>
+                        <p>The pediatric department at Doctors Hospital provides outpatient care to all children from newborn to adolescence. The OPD services are run by consultants with a vast experience in their field.</p>
+                        @*<div class="social">
+                            <img src="~/Media/departments-4.jpg" alt="" class="img-fluid">
+                        </div>*@
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 mt-4">
+                <div class="member d-flex align-items-start">
+                    <div class="pic"><img src="~/Media/Department/departments-5.jpg" class="img-fluid" alt=""></div>
+                    <div class="member-info">
+                        <h4>ENT</h4>
+                        <span></span>
+                        <p>At Doctors Hospital our Ear, Nose and Throat (ENT) consultants provide a variety of services on par with international standards. Our ENT consultants utilize state-of-the-art microscopes, fiber-optic laryngoscope with video recording options, as well as rigid nasal and ear endoscopes. </p>
+                        @*<div class="social">
+                        <img src="~/Media/departments-3.jpg" alt="" class="img-fluid">
+                        </div>*@
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+
+    </div>
+</section><!-- End Departments Section -->
+
+<!-- ======= Doctors Section ======= -->
+<section id="doctors" class="doctors">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Doctors</h2>
+            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row">
+
+            <div class="col-lg-6">
+                <div class="member d-flex align-items-start">
+                    <div class="pic"><img src="~/Media/Doctor/doctors-1.jpg" class="img-fluid" alt=""></div>
+                    <div class="member-info">
+                        <h4>Walter White</h4>
+                        <span>Chief Medical Officer</span>
+                        <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                        <div class="social">
+                            <a href=""><img src="~/Media/Icons/twitter.png" class="img-fluid" alt=""></a>
+                            <a href=""><img src="~/Media/Icons/fb.png" class="img-fluid" alt=""></a>
+                            <a href=""><img src="~/Media/Icons/Insta.png" class="img-fluid" alt=""></a>
+                            <a href=""><img src="~/Media/Icons/LInkedIn.png" class="img-fluid" alt=""> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 mt-4 mt-lg-0">
+                <div class="member d-flex align-items-start">
+                    <div class="pic"><img src="~/Media/Doctor/doctors-2.jpg" class="img-fluid" alt=""></div>
+                    <div class="member-info">
+                        <h4>Sarah Jhonson</h4>
+                        <span>Anesthesiologist</span>
+                        <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
+                        <div class="social">
+                            <a href=""><img src="~/Media/Icons/twitter.png" class="img-fluid" alt=""></a>
+                            <a href=""><img src="~/Media/Icons/fb.png" class="img-fluid" alt=""></a>
+                            <a href=""><img src="~/Media/Icons/Insta.png" class="img-fluid" alt=""></a>
+                            <a href=""> <img src="~/Media/Icons/LInkedIn.png" class="img-fluid" alt=""> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 mt-4">
+                <div class="member d-flex align-items-start">
+                    <div class="pic"><img src="~/Media/Doctor/doctors-3.jpg" class="img-fluid" alt=""></div>
+                    <div class="member-info">
+                        <h4>William Anderson</h4>
+                        <span>Cardiology</span>
+                        <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+                        <div class="social">
+                            <a href=""><img src="~/Media/Icons/twitter.png" class="img-fluid" alt=""></a>
+                            <a href=""><img src="~/Media/Icons/fb.png" class="img-fluid" alt=""></a>
+                            <a href=""><img src="~/Media/Icons/Insta.png" class="img-fluid" alt=""></a>
+                            <a href=""> <img src="~/Media/Icons/LInkedIn.png" class="img-fluid" alt=""> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 mt-4">
+                <div class="member d-flex align-items-start">
+                    <div class="pic"><img src="~/Media/Doctor/doctors-4.jpg" class="img-fluid" alt=""></div>
+                    <div class="member-info">
+                        <h4>Amanda Jepson</h4>
+                        <span>Neurosurgeon</span>
+                        <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                        <div class="social">
+                            <a href=""><img src="~/Media/Icons/twitter.png" class="img-fluid" alt=""></a>
+                            <a href=""><img src="~/Media/Icons/fb.png" class="img-fluid" alt=""></a>
+                            <a href=""><img src="~/Media/Icons/Insta.png" class="img-fluid" alt=""></a>
+                            <a href=""> <img src="~/Media/Icons/LInkedIn.png" class="img-fluid" alt=""> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section><!-- End Doctors Section -->
+
+<!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+      </div>
+
+      <div>
+        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="container">
+        <div class="row mt-5">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                   
+                   <h4> <span><img src="~/Media/address1.png" width="30" height="30"> </span> Location:</h4>
+                   <p>A108 Adam Street, New York, NY 535022</p>
+              </div>
+
+              <div class="email">
+
+                        <h4><span><img src="~/Media/Email.png" width="30" height="30"></span>Email:</h4>
+                <p>info@example.com</p>
+              </div>
+
+              <div class="phone">
+
+                        <h4><span><img src="~/Media/Phone.png" width="30" height="30"></span>Call:</h4>
+                <p>+1 5589 55488 55s</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+

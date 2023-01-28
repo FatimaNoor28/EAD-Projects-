@@ -9,65 +9,121 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EAD_Project
 build_property.RootNamespace = EAD_Project
-build_property.ProjectDir = C:\Users\Solution Technology\source\repos\EAD_Project\EAD_Project\
+build_property.ProjectDir = C:\Users\Solution Technology\source\EAD-Projects\EAD_Project\EAD_Project\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Solution Technology\source\repos\EAD_Project\EAD_Project
+build_property.MSBuildProjectDirectory = C:\Users\Solution Technology\source\EAD-Projects\EAD_Project\EAD_Project
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Solution Technology/source/repos/EAD_Project/EAD_Project/Views/Admin/AddPatient.cshtml]
+[C:/Users/Solution Technology/source/EAD-Projects/EAD_Project/EAD_Project/Views/Admin/AddPatient.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkUGF0aWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Solution Technology/source/repos/EAD_Project/EAD_Project/Views/Admin/AssignRoom.cshtml]
+[C:/Users/Solution Technology/source/EAD-Projects/EAD_Project/EAD_Project/Views/Admin/AssignRoom.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQXNzaWduUm9vbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Solution Technology/source/repos/EAD_Project/EAD_Project/Views/Admin/DeletePatient.cshtml]
+[C:/Users/Solution Technology/source/EAD-Projects/EAD_Project/EAD_Project/Views/Admin/DeletePatient.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVsZXRlUGF0aWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Solution Technology/source/repos/EAD_Project/EAD_Project/Views/Admin/FindPatient.cshtml]
+[C:/Users/Solution Technology/source/EAD-Projects/EAD_Project/EAD_Project/Views/Admin/FindPatient.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRmluZFBhdGllbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Solution Technology/source/repos/EAD_Project/EAD_Project/Views/Admin/Index.cshtml]
+[C:/Users/Solution Technology/source/EAD-Projects/EAD_Project/EAD_Project/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Solution Technology/source/repos/EAD_Project/EAD_Project/Views/Admin/Login.cshtml]
+[C:/Users/Solution Technology/source/EAD-Projects/EAD_Project/EAD_Project/Views/Admin/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Solution Technology/source/repos/EAD_Project/EAD_Project/Views/Admin/UpdatePatient.cshtml]
+[C:/Users/Solution Technology/source/EAD-Projects/EAD_Project/EAD_Project/Views/Admin/SignUpAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2lnblVwQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Solution Technology/source/EAD-Projects/EAD_Project/EAD_Project/Views/Admin/SignUpSuccessful.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2lnblVwU3VjY2Vzc2Z1bC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Solution Technology/source/EAD-Projects/EAD_Project/EAD_Project/Views/Admin/UnsuccessfulLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVW5zdWNjZXNzZnVsTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Solution Technology/source/EAD-Projects/EAD_Project/EAD_Project/Views/Admin/UnsuccessfulSignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVW5zdWNjZXNzZnVsU2lnblVwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Solution Technology/source/EAD-Projects/EAD_Project/EAD_Project/Views/Admin/UpdatePatient.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXBkYXRlUGF0aWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Solution Technology/source/repos/EAD_Project/EAD_Project/Views/Home/Index.cshtml]
+[C:/Users/Solution Technology/source/EAD-Projects/EAD_Project/EAD_Project/Views/Doctor/DoctorSignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXERvY3RvclNpZ25VcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Solution Technology/source/EAD-Projects/EAD_Project/EAD_Project/Views/Doctor/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Solution Technology/source/EAD-Projects/EAD_Project/EAD_Project/Views/Doctor/LoginUnsuccessful.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXExvZ2luVW5zdWNjZXNzZnVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Solution Technology/source/EAD-Projects/EAD_Project/EAD_Project/Views/Doctor/UnsuccessfulSignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXFVuc3VjY2Vzc2Z1bFNpZ25VcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Solution Technology/source/EAD-Projects/EAD_Project/EAD_Project/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Solution Technology/source/repos/EAD_Project/EAD_Project/Views/Home/Privacy.cshtml]
+[C:/Users/Solution Technology/source/EAD-Projects/EAD_Project/EAD_Project/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Solution Technology/source/repos/EAD_Project/EAD_Project/Views/Shared/Error.cshtml]
+[C:/Users/Solution Technology/source/EAD-Projects/EAD_Project/EAD_Project/Views/Patient/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Solution Technology/source/EAD-Projects/EAD_Project/EAD_Project/Views/Patient/LoginUnsuccessful.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxMb2dpblVuc3VjY2Vzc2Z1bC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Solution Technology/source/EAD-Projects/EAD_Project/EAD_Project/Views/Patient/MakeAppointment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxNYWtlQXBwb2ludG1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Solution Technology/source/EAD-Projects/EAD_Project/EAD_Project/Views/Patient/PatientLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxQYXRpZW50TG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Solution Technology/source/EAD-Projects/EAD_Project/EAD_Project/Views/Patient/PatientSignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxQYXRpZW50U2lnblVwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Solution Technology/source/EAD-Projects/EAD_Project/EAD_Project/Views/Patient/UnsuccessfulSignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxVbnN1Y2Nlc3NmdWxTaWduVXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Solution Technology/source/EAD-Projects/EAD_Project/EAD_Project/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Solution Technology/source/repos/EAD_Project/EAD_Project/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Solution Technology/source/EAD-Projects/EAD_Project/EAD_Project/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Solution Technology/source/repos/EAD_Project/EAD_Project/Views/_ViewImports.cshtml]
+[C:/Users/Solution Technology/source/EAD-Projects/EAD_Project/EAD_Project/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Solution Technology/source/repos/EAD_Project/EAD_Project/Views/_ViewStart.cshtml]
+[C:/Users/Solution Technology/source/EAD-Projects/EAD_Project/EAD_Project/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Solution Technology/source/repos/EAD_Project/EAD_Project/Views/Shared/_Layout.cshtml]
+[C:/Users/Solution Technology/source/EAD-Projects/EAD_Project/EAD_Project/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-4lt7engkck
