@@ -14,7 +14,7 @@ namespace EAD_Project.Controllers
             PatientRepository pr = new PatientRepository();
             if (pr.SignUpPatient(username, password))
             {
-                ViewData["Msg"] = "You are Siggned Up Successfully,LogIn to continue";
+                ViewData["Msg"] = "You are Signed Up Successfully,LogIn to continue";
                 return View("PatientLogin");
             }
             else
@@ -33,14 +33,14 @@ namespace EAD_Project.Controllers
             PatientRepository ar = new PatientRepository();
 
             if (ar.Authenticate(username, password))
-                return View("Index");
+                return View("MakeAppointment");
             else return View("LoginUnsuccessful");
         }
 
         [HttpGet]
-        public IActionResult MakeAppointment()
+        public IActionResult Appointment()
         {
-            return View();
+            return View("MakeAppointment");
         }
         [HttpPost]
         public IActionResult MakeAppointment(string name, string CNIC, string phone, string date, string department, string doctor)
