@@ -13,9 +13,13 @@ public partial class Patient
 
     public string? PhoneNo { get; set; }
 
-    public DateTime? AppointmentDate { get; set; }
+    public string? AppointmentDate { get; set; }
 
     public int? AppointmentId { get; set; }
 
     public string? Password { get; set; }
+
+    public string? Department { get; set; }
+
+    public string? Doctor { get; set; }
 }

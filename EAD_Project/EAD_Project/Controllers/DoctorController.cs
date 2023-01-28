@@ -7,7 +7,7 @@ namespace EAD_Project.Controllers
     {
         public IActionResult Index()
         {
-            return View("DoctorSignUp");
+            return View("DoctortSignUp");
         }
         [HttpPost]
         public IActionResult PatientSignUp(int username, string password)

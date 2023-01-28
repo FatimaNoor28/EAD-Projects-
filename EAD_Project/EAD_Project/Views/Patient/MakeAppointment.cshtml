@@ -1,4 +1,47 @@
-﻿<!-- Appointment -->
+﻿@using EAD_Project.Models;
+@Model List<Patient>
+@{
+    ViewData["Title"] = "Appointment";
+}
+<section id="appointment" class="appointment section-bg">
+    <div class="container">
+        <div class="section-title">
+            <h2>Coming Appointments </h2>
+                @if (Model == null) {
+                    <h3>***No Upcomming Appointments***</h3>
+                }else{
+                <div class="row">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th scope="col">Appointment #</th>
+                                <th scope="col">Appointment Id</th>
+                                <th scope="col">Appointment Date</th>
+                                @*<th scope="col">Handle</th>*@
+                            </tr>
+                        </thead>
+                        @foreach (Patient p in Model)
+                        {
+                            int i = 1;
+                            <tbody>
+                                <tr>
+                                    <th scope="row">@i</th>
+                                    <td>@p.AppointmentId</td>
+                                    @*<td>Otto</td>*@
+                                    <td>@p.AppointmentDate</td>
+                                </tr>
+                            </tbody>
+                        }
+
+                    </table>
+                </div>
+                }
+            
+        </div>
+     </div>
+</section>
+
+<!-- Appointment -->
 <section id="appointment" class="appointment section-bg">
     <div class="container">
         <div class="section-title">

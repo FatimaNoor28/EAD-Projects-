@@ -73,11 +73,19 @@ public partial class HospitalManagementSystemContext : DbContext
             entity.ToTable("Patient");
 
             entity.Property(e => e.PatientId).ValueGeneratedNever();
-            entity.Property(e => e.AppointmentDate).HasColumnType("date");
+            entity.Property(e => e.AppointmentDate)
+                .HasMaxLength(10)
+                .IsFixedLength();
             entity.Property(e => e.Cnic)
                 .HasMaxLength(13)
                 .IsFixedLength()
                 .HasColumnName("CNIC");
+            entity.Property(e => e.Department)
+                .HasMaxLength(20)
+                .IsFixedLength();
+            entity.Property(e => e.Doctor)
+                .HasMaxLength(20)
+                .IsFixedLength();
             entity.Property(e => e.Name)
                 .HasMaxLength(20)
                 .IsFixedLength();

@@ -30,24 +30,29 @@ namespace EAD_Project.Controllers
         [HttpPost]
         public IActionResult PatientLogin(int username, string password)
         {
-            PatientRepository ar = new PatientRepository();
+            PatientRepository pr = new PatientRepository();
 
-            if (ar.Authenticate(username, password))
+            if (pr.Authenticate(username, password))
+            {
+                List<Patient> patients = new List<Patient>();
+                patients = pr.GetAllAppointments(username);
+                MakeAppointment(patients);
                 return View("MakeAppointment");
-            else return View("LoginUnsuccessful");
+            }    
+            return View("LoginUnsuccessful");
         }
 
         [HttpGet]
-        public IActionResult Appointment()
+        public IActionResult MakeAppointment(List<Patient> p)
         {
-            return View("MakeAppointment");
+            return View(p);
         }
         [HttpPost]
-        public IActionResult MakeAppointment(string name, string CNIC, string phone, string date, string department, string doctor)
+        public IActionResult Receipt(string name, string CNIC, string phone, string date, string department, string doctor)
         {
             PatientRepository repository = new PatientRepository();
-            repository.MakeAppointment(name, CNIC, phone, date, department, doctor);
-            return View("Reciept");
+            Patient p = repository.MakeAppointment(username, name, CNIC, phone, date, department, doctor);
+            return View(p);
         }
         
     }

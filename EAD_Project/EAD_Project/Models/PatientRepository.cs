@@ -1,4 +1,5 @@
 ﻿using Microsoft.IdentityModel.Tokens;
+using System;
 using System.Numerics;
 
 namespace EAD_Project.Models
@@ -25,9 +26,33 @@ namespace EAD_Project.Models
             db.SaveChanges();
             return (!db.Patients.Where(x => x.PatientId == username && x.Password.Equals(password)).ToList().IsNullOrEmpty());
         }
-        public void MakeAppointment(string name, string CNIC, string phone, string date,string department, string doctor)
-        {
 
+        public List<Patient> GetAllAppointments(int username)
+        {
+            List<Patient> patients = new List<Patient>();
+            HospitalManagementSystemContext db = new HospitalManagementSystemContext();
+            DateTime CurrentDate = DateTime.Now;/*.ToString("dd/MM/yyyy")*/
+            DateOnly d = DateOnly.FromDateTime(CurrentDate);
+            //DateOnly.TryParseExact(CurrentDate, "dd/MM/yyyy",d);
+
+            Console.WriteLine(d);
+
+            var p = db.Patients.Select(p => p).Where(p => p.PatientId == username).Where(p=> DateOnly.Parse(p.AppointmentDate) >= d );
+
+            return patients;
+        }
+        public Patient MakeAppointment(string name, string CNIC, string phone, string date,string department, string doctor)
+        {
+            HospitalManagementSystemContext db = new HospitalManagementSystemContext();
+            Patient p  = db.Patients.Find(username);
+            p.Name = name;
+            p.Cnic = CNIC;
+            p.PhoneNo = phone;
+            p.AppointmentDate = date;
+            p.Department = department;
+            p.Doctor = doctor;
+            db.SaveChanges();
+            return p;
         }
     }
 }
