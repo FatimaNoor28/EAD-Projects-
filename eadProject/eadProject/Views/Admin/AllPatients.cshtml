@@ -1,0 +1,52 @@
+﻿@model List<eadProject.Models.Patient>
+
+@{
+    ViewData["Title"] = "All_Patients";
+}
+<section id="appointment" class="appointment section-bg">
+    <div class="container">
+        <h3 class="text-center text-red pt-5">@ViewData["Appointment"]</h3>
+
+        <div class="section-title">
+            <h2>List of All Patients </h2>
+            <div class="row">
+                @if (Model != null)
+                {
+
+
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th scope="col">Patient #</th>
+                                <th scope="col">Patient Id</th>
+                                <th scope="col">Patient Name</th>
+                                <th scope="col">Patient CNIC</th>
+                            </tr>
+                        </thead>
+                        @foreach (Patient p in Model)
+                        {
+                            int i = 1;
+                            <tbody>
+                                <tr>
+                                    <th scope="row">@i</th>
+                                    <td>@p.Id</td>
+                                    <td>@p.Name</td>
+                                    <td>@p.CNIC</td>
+                                </tr>
+                            </tbody>
+                        }
+
+                    </table>
+                }
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+@section LoginReplacement
+    {
+
+                               <h>  @ViewData["PatientUserName"] </h>
+     }

@@ -1,0 +1,39 @@
+﻿@using eadProject.Models
+@model eadProject.Models.Patient
+<section id="appointment" class="appointment section-bg">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Update Patient</h2>
+            <p>Fill the attributes you want to change. Leave blank otherwise.</p>
+        </div>
+
+        <form method="post">
+            <div class="row form-row">
+                <div class="col-md-4 form-group mt-3 mt-md-0 form-col">
+                    <label class="label">Enter New Name</label>   <input asp-for="Name" class="form-control" />
+                </div>
+                <div class="col-md-4 form-group mt-3 mt-md-0">
+                    <label class="label">Enter New CNIC</label>   <input asp-for="CNIC" class="form-control" />
+                </div>
+            </div>
+
+            <div class="row form-row">
+                
+                <div class="col-md-4 form-group mt-3 mt-md-0">
+                    <label class="label">Enter New Password</label>   <input  asp-for="Password" class="form-control" />
+                </div>
+            </div>
+            <div class="text-center bttn">
+               @* <a asp-route-Id="@Model.Id" >Update Patient</a>*@
+                <input type="submit" asp-controller="Admin" asp-action="updateRecord" asp-route-Id="@Model.Id" value="Update Patient" />
+            </div>
+        </form>
+
+    </div>
+</section>
+@section LoginReplacement
+    {
+
+    <h>  @ViewData["AdminUserName"] </h>
+    }

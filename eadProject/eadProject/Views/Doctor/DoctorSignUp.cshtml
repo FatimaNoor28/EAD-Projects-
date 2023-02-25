@@ -1,0 +1,58 @@
+﻿
+<html>
+<head>
+    <title>Doctor SignUp</title>
+    <link rel="stylesheet" href="~/css/our.css">
+    
+   
+</head>
+<body class="login">
+    <div id="login">
+        <h3 class="text-center text-white pt-5">SignUp Form</h3>
+        <div class="container">
+           
+            <div id="login-row" class="row justify-content-center align-items-center">
+                <div id="login-column" class="col-md-8">
+                    
+                    <div id="login-box-docSignup" class="col-md-12">
+                        
+                        <form id="login-form" class="form" action="/Doctor/DoctorSignUp" method="post">
+                            <h3 class="text-center text-info ">Doctor SignUp</h3>
+                            <div class="form-group">
+                                <label for="CNIC" class="text-info">CNIC:</label><br>
+                                <input type="text" pattern="^[0-9]{5}-[0-9]{7}-[0-9]{1}$" class="form-control" title="Type your CNIC like 12345-1234567-1" name="CNIC" id="CNIC" placeholder="Your CNIC" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="name" class="text-info">Name:</label><br>
+                                <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="appointments" class="text-info">Maximum Appointments Per Day:</label><br>
+                                <input type="text" name="appointments" id="appointments" class="form-control" placeholder="Appointment Limit/day" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="password" class="text-info">Password:</label><br>
+                                <input type="password" name="password" id="password" class="form-control" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@@#$%^&*_=+-]).{8,12}$" title="Please enter at least 8 chars, 1 number, 1 symbol and 1 uppercase alphabet" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="confirm_password" class="text-info">Password:</label><br>
+                                <input type="password" name="ConfirmPassword" id="cnfrmpassword" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                @*<label for="remember-me" class="text-info"><span>Remember me</span> <span><input id="remember-me" name="remember-me" type="checkbox"></span></label><br>*@
+                                <input type="submit" name="submit" class="btn btn-info btn-md" value="Submit" onclick="return Validate()">
+                            </div>
+
+                            <div id="register-link" class="text-right">
+                                <a href="/Doctor/Login" class="text-info">Already Registered? Login here</a>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

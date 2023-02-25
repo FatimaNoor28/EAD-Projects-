@@ -1,0 +1,40 @@
+﻿<html>
+<head>
+    <title>Patient Login</title>
+    <link rel="stylesheet" href="~/css/our.css">
+</head>
+<body class="login">
+    <div id="login">
+        <h3 class="text-center text-white pt-5">@ViewData["Msg"]</h3>
+        <h3 class="text-center text-white pt-5">Login form</h3>
+        
+        <div class="container">
+            <div id="login-row" class="row justify-content-center align-items-center">
+                <div id="login-column" class="col-md-6">
+                    <div id="login-box" class="col-md-12">
+                        <form id="login-form" class="form" action="/Patient/PatientLogin" method="post">
+                            <h3 class="text-center text-info">Patient Login</h3>
+
+                            <partial name = "_PartialLoginView"/>
+
+                            <div id="register-link" class="text-right">
+                                <a href="/Patient/Index" class="text-info">Dont have an Account ?, Register now</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+@if (ViewData["PatientUserName"] != null)
+{
+    @section LoginReplacement
+    {
+
+                                   <h>  @ViewData["PatientUserName"] </h>
+     }
+
+}
+</html>

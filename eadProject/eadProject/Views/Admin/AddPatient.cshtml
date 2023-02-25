@@ -1,0 +1,48 @@
+﻿
+    <section id="appointment" class="appointment section-bg">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Add Patient</h2>
+            </div>
+
+            <form method="post" action="/Admin/AddPatient">
+                <div class="row form-row">
+                    <div class="col-md-4 form-group mt-3 mt-md-0 ">
+                        <label class="label">Enter Patient CNIC</label>   <input type="text" name="CNIC" class="form-control" />
+                    </div>
+                    <div class="col-md-4 form-group mt-3 mt-md-0 form-col">
+                        <label class="label">Enter Patient Name</label>   <input type="text" name="name" class="form-control" />
+                    </div>
+                </div>
+                <div class="row form-row">
+                    <div class="col-md-4 form-group mt-3 mt-md-0">
+                        <label class="label">Enter Patient's Password</label>   <input type="text" name="password" class="form-control" />
+                    </div>
+                    <div class="col-md-4 form-group mt-3 mt-md-0">
+                        <label class="label">Assigned Doctor</label>   <input type="text" name="Doctor" class="form-control" />
+                    </div>
+                    
+                </div>
+                @*<div class="row form-row">
+                    <div class="col-md-4 form-group mt-3 mt-md-0">
+                        <label class="label">Assigned Doctor</label>   <input type="text" name="Doctor" class="form-control" />
+                    </div>
+                    <div class="col-md-4 form-group mt-3 mt-md-0 form-col">
+                        <label class="label">Enter Patient Room</label>   <input type="text" name="RoomNo" class="form-control" />
+                    </div>
+                </div>*@
+
+                <div class="text-center bttn">
+                    <input type="submit" value="Add Patient" />
+                </div>
+            </form>
+
+        </div>
+    </section>
+
+    @section LoginReplacement
+        {
+
+        <h>  @ViewData["PatientUserName"] </h>
+        }

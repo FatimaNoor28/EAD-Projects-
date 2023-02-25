@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Models\NewFile.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css" />
     <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css.map" />
     <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css" />

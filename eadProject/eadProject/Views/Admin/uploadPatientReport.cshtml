@@ -1,0 +1,33 @@
+﻿<section id="appointment" class="appointment section-bg">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Upload Patient's Report</h2>
+        </div>
+        <form method="post" enctype="multipart/form-data"
+              asp-action="uploadPatientReport" asp-controller="Admin">
+            <div class="row form-row" style="padding-left: 13cm;">
+                <div class="col-md-4 form-group mt-3 mt-md-0 ">
+
+                    <span>Select File: </span>
+                    <input type="file" name="postedFiles" multiple />
+                </div>
+            </div>
+            <div class="row form-row" style="padding-left: 13cm;">
+                <div class="col-md-4 form-group mt-3 mt-md-0 ">
+                    <label class="label">Patient ID</label>   <input type="text" name="PatientId" class="form-control" />
+                </div>
+            </div>
+            <div class="bttn text-center">
+                <button type="submit">Upload File(s)</button>
+            </div>
+        </form>
+
+    </div>
+</section>
+
+@section LoginReplacement
+    {
+
+    <h>  @ViewData["PatientUserName"] </h>
+    }

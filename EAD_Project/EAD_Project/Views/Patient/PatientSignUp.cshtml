@@ -3,6 +3,17 @@
     <title>SignUp</title>
     <link rel="stylesheet" href="~/css/our.css">
 
+    <script type="text/javascript">
+        function Validate() {
+            var password = document.getElementById("password").value;
+            var confirmPassword = document.getElementById("cnfrmpassword").value;
+            if (password != confirmPassword) {
+                alert("Passwords do not match.");
+                return false;
+            }
+            return true;
+        }
+    </script>
 </head>
 <body class="login">
     <div id="login">
@@ -12,28 +23,33 @@
                 <div id="login-column" class="col-md-6">
                     <div id="login-box" class="col-md-12">
                         <form id="login-form" class="form" action="/Patient/PatientSignUp" method="post">
-                            <h3 class="text-center text-info">Login</h3>
+                            <h3 class="text-center text-info">Patient SignUp</h3>
                             <div class="form-group">
-                                <label for="username" class="text-info">Username:</label><br>
-                                <input type="text" name="username" id="username" class="form-control">
+                                <label for="CNIC" class="text-info">CNIC:</label><br>
+                                 <input type="text" pattern="^[0-9]{5}-[0-9]{7}-[0-9]{1}$" class="form-control" title="Type your CNIC like 12345-1234567-1" name="CNIC" id="CNIC" placeholder="Your CNIC" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="Name" class="text-info">Name:</label><br>
+                                <input type="text" name="username" id="name" class="form-control" placeholder="Your Name" required>
                             </div>
                             <div class="form-group">
                                 <label for="password" class="text-info">Password:</label><br>
-                                <input type="password" name="password" id="password" class="form-control">
+                                <input type="password" name="password" id="password" class="form-control" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@@#$%^&*_=+-]).{8,12}$" title="Please enter at least 8 chars, 1 number, 1 symbol and 1 uppercase alphabet" required>
                             </div>
-                            <br>
                             <div class="form-group">
-                                <label for="remember-me" class="text-info"><span>Remember me</span> <span><input id="remember-me" name="remember-me" type="checkbox"></span></label><br>
-                                <input type="submit" name="submit" class="btn btn-info btn-md" value="submit">
+                                <label for="confirm_password" class="text-info">Password:</label><br>
+                                <input type="password" name="ConfirmPassword" id="cnfrmpassword" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                @*<label for="remember-me" class="text-info"><span>Remember me</span> <span><input id="remember-me" name="remember-me" type="checkbox"></span></label><br>*@
+                                <input type="submit" name="submit" class="btn btn-info btn-md" value="Submit" onclick="return Validate()">
                             </div>
 
                             <div id="register-link" class="text-right">
                                 <a href="/Patient/PatientLogin" class="text-info">Already Registered? Login here</a>
                             </div>
 
-                            <div id="register-link" class="text-right">
-                                <a href="/Patient/Index" class="text-info">Register here</a>
-                            </div>
+                           
                         </form>
                     </div>
                 </div>

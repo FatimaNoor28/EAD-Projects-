@@ -1,4 +1,5 @@
-﻿using Microsoft.IdentityModel.Tokens;
+﻿using Microsoft.AspNetCore.Server.HttpSys;
+using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Numerics;
 
@@ -7,27 +8,52 @@ namespace EAD_Project.Models
     public class PatientRepository
     {
         public PatientRepository() { }
-        public bool Authenticate(int username, string password)
+        public bool Authenticate(string username, string password)
         {
 
             HospitalManagementSystemContext db = new HospitalManagementSystemContext();
-            if ((db.Patients.Where(a => a.PatientId == username && a.Password.Equals(password)).ToList()).IsNullOrEmpty())
+            if ((db.Patients.Where(a => (a.CNIC.Equals(username)) && a.Password.Equals(password)).ToList()).IsNullOrEmpty())
                 return false;
 
             return true;
         }
-        public bool SignUpPatient(int username, string password)
+        public int find_Patient(string username, string password)
+        {
+
+            HospitalManagementSystemContext db = new HospitalManagementSystemContext();
+            var p = db.Patients.Where(a => (a.CNIC.Equals(username)) && a.Password.Equals(password)).Select(c =>c.Id).FirstOrDefault();
+           /* int p = System.Convert.ToInt32( db.Patients.Where(a => (a.CNIC.Equals(username)) && a.Password.Equals(password)).Select(p=>p.Id));*/
+            return (int)p;
+
+    
+        }
+        public bool SignUpPatient(string CNIC,string  username, string password)
         {
             HospitalManagementSystemContext db = new HospitalManagementSystemContext();
             Patient patient = new Patient();
-            patient.PatientId = username;
-            patient.Password = password;
-            db.Patients.Add(patient);
-            db.SaveChanges();
-            return (!db.Patients.Where(x => x.PatientId == username && x.Password.Equals(password)).ToList().IsNullOrEmpty());
+            //patient.PatientId = username;
+            if (db.Patients.Where(x => (x.CNIC.Equals(CNIC)) && x.Password.Equals(password)).ToList().IsNullOrEmpty())
+            {
+                patient.Password = password;
+                patient.Name = username;
+                patient.CNIC = CNIC;
+                db.Patients.Add(patient);
+                if (db.SaveChanges()==1) {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+                
+            }
+            else {
+                return false;
+            }
+            
         }
 
-        public List<Patient> GetAllAppointments(int username)
+        public List<Patient> GetAllAppointments(string username)
         {
             List<Patient> patients = new List<Patient>();
             HospitalManagementSystemContext db = new HospitalManagementSystemContext();
@@ -37,22 +63,12 @@ namespace EAD_Project.Models
 
             Console.WriteLine(d);
 
-            var p = db.Patients.Select(p => p).Where(p => p.PatientId == username).Where(p=> DateOnly.Parse(p.AppointmentDate) >= d );
+            var p = db.Patients.Select(p => p.CNIC.Where(p => p.Equals(username)))/*.Where(p=> DateOnly.Parse(p.AppointmentDate) >= d )*/;
+
+
 
             return patients;
         }
-        public Patient MakeAppointment(string name, string CNIC, string phone, string date,string department, string doctor)
-        {
-            HospitalManagementSystemContext db = new HospitalManagementSystemContext();
-            Patient p  = db.Patients.Find(username);
-            p.Name = name;
-            p.Cnic = CNIC;
-            p.PhoneNo = phone;
-            p.AppointmentDate = date;
-            p.Department = department;
-            p.Doctor = doctor;
-            db.SaveChanges();
-            return p;
-        }
+        
     }
 }

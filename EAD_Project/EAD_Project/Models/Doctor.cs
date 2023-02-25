@@ -7,11 +7,13 @@ public partial class Doctor
 {
     public int DoctorId { get; set; }
 
+    public string CNIC { get; set; } 
+
     public string? Password { get; set; }
 
     public string? Name { get; set; }
 
     public int? Appointments { get; set; }
 
-    public int? ApointmentLimit { get; set; }
+    public int? ApointmentLimitPerDay { get; set; }
 }

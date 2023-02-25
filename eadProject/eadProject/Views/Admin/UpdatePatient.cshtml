@@ -1,0 +1,30 @@
+﻿
+<section id="appointment" class="appointment section-bg">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Update Patient</h2>
+            <p>Fill the attributes you want to change. Leave blank otherwise.</p>
+        </div>
+
+        <form method = "post" action="/Admin/UpdatePatient">
+            <div class="row form-row">
+                <div class="col-md-4 form-group mt-3 mt-md-0 ">
+                    <label class="label">Enter ID of patient whose record you want to update: </label>   <input type="text" name="Id" class="form-control" />
+                   
+                </div>
+            </div>
+            
+            <div class="text-center bttn">
+                <input type="submit" value="Update Patient" />
+            </div>
+        </form>
+
+        
+    </div>
+</section>
+@section LoginReplacement
+    {
+
+                                   <h>  @ViewData["AdminUserName"] </h>
+    }

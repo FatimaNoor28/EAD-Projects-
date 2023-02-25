@@ -28,7 +28,7 @@
        <!-- nav bar start -->
        <header>
     <nav class="navbar navbar-expand-lg bg-light">
-        <img src="~/Media/medical-suitecase-icon.png"  width="50" height="50">
+        <img src="~/Media/medical-suitecase-icon.png"  width="50" height="50" >
 
         <a class="navbar-brand" href="#"><span class="fw-bolder">MEDCARE</span></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -56,12 +56,12 @@
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">More</a>
                     </div>
+                    </li>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#services">Services</a>
                     </li>
-
-
-                    <li class="nav-item dropdown">
+                         <li class="nav-item dropdown">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -73,22 +73,25 @@
                             <div class="dropdown-divider"></div> 
                             <a class="dropdown-item" href="/Patient/PatientLogin">Patient</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Doctor</a>
+                            <a class="dropdown-item" href="/Doctor/Login">Doctor</a>
                             
                         </div>
-                        <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
                     </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+
+                    @if(IsSectionDefined("CNIC")){
+                        <div>
+                        @RenderSection("CNIC",false);
+                        </div>
+                    }
                     
-                </li>
-<!-- <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
-                </li>-->    
-               <!--<form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>-->
-            </ul>
+                   
+                    
+
+               </ul>
 
 
         </div>

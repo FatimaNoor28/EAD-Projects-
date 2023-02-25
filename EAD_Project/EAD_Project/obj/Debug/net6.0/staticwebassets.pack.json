@@ -113,6 +113,10 @@
       "PackagePath": "staticwebassets\\js\\npm.js"
     },
     {
+      "Id": "C:\\Users\\Solution Technology\\source\\EAD-Projects\\EAD_Project\\EAD_Project\\wwwroot\\js\\our.js",
+      "PackagePath": "staticwebassets\\js\\our.js"
+    },
+    {
       "Id": "C:\\Users\\Solution Technology\\source\\EAD-Projects\\EAD_Project\\EAD_Project\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

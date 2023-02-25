@@ -621,7 +621,7 @@ section {
 }
 
 #login .container #login-row #login-column #login-box {
-    margin-top: 120px;
+    margin-top: 100px;
     max-width: 600px;
     height: 320px;
     border: 1px solid #9C9C9C;
@@ -633,5 +633,5 @@ section {
     }
 
         #login .container #login-row #login-column #login-box #login-form #register-link {
-            margin-top: -85p;
+            margin-top: -85px;
         }

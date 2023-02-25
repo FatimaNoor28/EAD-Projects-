@@ -7,34 +7,35 @@ namespace EAD_Project.Controllers
     {
         public IActionResult Index()
         {
-            return View("DoctortSignUp");
+            return View("DoctorSignUp");
         }
         [HttpPost]
-        public IActionResult PatientSignUp(int username, string password)
+        public IActionResult DoctorSignUp(string CNIC, string name, int appointments, string password)
         {
-            PatientRepository pr = new PatientRepository();
-            if (pr.SignUpPatient(username, password))
+            DoctorRepository dr = new DoctorRepository();
+            if(dr.SignUpDoctor(CNIC, name, appointments, password))
             {
                 ViewData["Msg"] = "You are Signed Up Successfully,LogIn to continue";
-                return View("PatientLogin");
+                return View("Login");
             }
-            else
-            {
-                return View("UnsuccessfulSignUp");
-            }
+            return View("UnsuccessfulSignUp");
         }
         [HttpGet]
-        public IActionResult PatientLogin()
+        public IActionResult Login()
         {
-            return View("PatientLogin");
+            return View("Login");
         }
         [HttpPost]
-        public IActionResult PatientLogin(int username, string password)
+        public IActionResult Login(string CNIC, string password)
         {
-            PatientRepository ar = new PatientRepository();
+            DoctorRepository dr = new DoctorRepository();
 
-            if (ar.Authenticate(username, password))
-                return View("MakeAppointment");
+            if (dr.Authenticate(CNIC, password))
+            {
+                Doctor d = dr.findDoctor(CNIC, password);
+                return View("Index", d);
+            }
+                
             else return View("LoginUnsuccessful");
         }
 

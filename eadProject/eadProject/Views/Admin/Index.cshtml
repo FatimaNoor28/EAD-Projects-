@@ -1,0 +1,79 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="~/css/our.css">
+
+</head>
+
+<body>
+    <h3 class="text-center text-white pt-5">@ViewData["Msg"]</h3>
+    <h3 class="text-center text-white pt-5"> @Model</h3>
+    <section id="services" class="services">
+        <div class="container-fluid">
+
+            <div class="section-title">
+                <h2>Services</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                    <div class="icon-box">
+                        <div class="icon"><i class="fas fa-heartbeat"></i></div>
+                        <h4><a href="/Admin/AddPatient">Add Patient</a></h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                    <div class="icon-box">
+                        <div class="icon"><i class="fas fa-pills"></i></div>
+                        <h4><a href="/Admin/UpdatePatient">Update Patient</a></h4>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                    <div class="icon-box">
+                        <div class="icon"><i class="fas fa-hospital-user"></i></div>
+                        <h4><a href="/Admin/DeletePatient">Delete Patient</a></h4>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                    <div class="icon-box">
+                        <div class="icon"><i class="fas fa-dna"></i></div>
+                        <h4><a href="/Admin/FindPatient">Find Patient</a></h4>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                    <div class="icon-box">
+                        <div class="icon"><i class="fas fa-wheelchair"></i></div>
+                        <h4><a href="/Admin/AssignRoom">Assign Room</a></h4>
+                    </div>
+                </div>
+
+                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                    <div class="icon-box">
+                        <div class="icon"><i class="fas fa-wheelchair"></i></div>
+                        <h4><a href="/Admin/uploadPatientReport">Upload Reports</a></h4>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                    <div class="icon-box">
+                        <div class="icon"><i class="fas fa-notes-medical"></i></div>
+                        <h4><a href="/Admin/AllPatients">View All Patients</a></h4>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    @section LoginReplacement
+        {
+
+                                   <h>  @ViewData["AdminUserName"] </h>
+    }
+</body>
+</html>
