@@ -1,0 +1,19 @@
+version: '3.4'
+
+services:
+  database_sql:
+    image: databasesql:dev
+    container_name: Database_sql
+    build:
+      args:
+        source: obj/Docker/empty/
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "Database_sql"
+    volumes:
+      - C:\Users\Solution Technology\source\EAD-Projects\Database_sql\Database_sql:C:\app
+      - C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Remote Debugger:C:\remote_debugger:ro
+    entrypoint: cmd /c "set DISABLE_PERFORMANCE_DEBUGGER=1 & C:\\remote_debugger\\x64\\msvsmon.exe /noauth /anyuser /silent /nostatus /noclrwarn /nosecuritywarn /nofirewallwarn /nowowwarn /timeout:2147483646"
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "C:\\app\\bin\\Debug\\Database_sql.exe"
+      com.microsoft.visualstudio.debuggee.workingdirectory: "C:\\app"

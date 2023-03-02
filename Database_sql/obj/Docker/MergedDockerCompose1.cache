@@ -1,0 +1,29 @@
+name: dockercompose8415666706810808021
+services:
+  backend:
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: Docker123!
+    image: mcr.microsoft.com/mssql/server
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 1433
+      published: "1440"
+      protocol: tcp
+  database_sql:
+    build:
+      context: C:\Users\Solution Technology\source\EAD-Projects\Database_sql\Database_sql
+      dockerfile: Dockerfile
+    image: databasesql
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "8000"
+      protocol: tcp
+networks:
+  default:
+    name: dockercompose8415666706810808021_default

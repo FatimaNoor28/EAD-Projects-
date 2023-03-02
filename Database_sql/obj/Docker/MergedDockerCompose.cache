@@ -1,0 +1,12 @@
+name: dockercompose8415666706810808021
+services:
+  database_sql:
+    build:
+      context: C:\Users\Solution Technology\source\EAD-Projects\Database_sql\Database_sql
+      dockerfile: Dockerfile
+    image: databasesql
+    networks:
+      default: null
+networks:
+  default:
+    name: dockercompose8415666706810808021_default
